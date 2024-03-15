@@ -9,6 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.DataProvider;
 import seatech.common.baseBrowser.Base;
 import seatech.common.functions.CommonFunctions;
@@ -58,6 +59,7 @@ public class HybridDriven {
                 String action = sheet.getRow(i + 1).getCell(k + 3).toString().trim();
                 String value1 = sheet.getRow(i + 1).getCell(k + 4).toString().trim();
                 //String value2 = sheet.getRow(i + 1).getCell(k + 5).toString().trim();
+
                 switch (action) {
                     case "open browser":
                         base = new Base();
@@ -89,27 +91,35 @@ public class HybridDriven {
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
                             element.sendKeys(value1);
-                            Thread.sleep(3000);
+//                            Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("click")) {
                             element.click();
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
-                            Thread.sleep(3000);
+//                            Thread.sleep(3000);
                             element.isDisplayed();
                         } else if (action.equalsIgnoreCase("getText")) {
                             String elementText = element.getText();
                             System.out.println("text from element : " + elementText);
+                        } else if (action.equalsIgnoreCase("switchTo")) {
+                            driver.switchTo().frame(element);
+                            Thread.sleep(2000);
+                        }
+                        else if (action.equalsIgnoreCase("switchToDefault")) {
+                            driver.switchTo().defaultContent();
+                            Thread.sleep(2000);
                         }
                         locatorType = null;
                         break;
                     case "name":
                         element = driver.findElement(By.name(locatorValue));
+
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
                             element.sendKeys(value1);
-                            Thread.sleep(3000);
+//                            Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("click")) {
                             element.click();
-                            Thread.sleep(3000);
+//                            Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
                             element.isDisplayed();
                         } else if (action.equalsIgnoreCase("getText")) {
@@ -120,11 +130,13 @@ public class HybridDriven {
                         break;
                     case "xpath":
                         element = driver.findElement(By.xpath(locatorValue));
+                        //Select selectElement  = new Select(element);
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
                             element.sendKeys(value1);
                         } else if (action.equalsIgnoreCase("click")) {
                             element.click();
+                            Thread.sleep(2000);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
                             cFunc.waitVisible(element);
                             element.isDisplayed();
@@ -132,6 +144,10 @@ public class HybridDriven {
                             String elementText = element.getText();
                             System.out.println("text from element : " + elementText);
                         }
+                        /*else if (action.equalsIgnoreCase("select")) {
+                            selectElement.selectByVisibleText(value1);
+                            Thread.sleep(3000);
+                        }*/
                         locatorType = null;
                         break;
                     case "cssSelector":
@@ -179,10 +195,17 @@ public class HybridDriven {
                         Thread.sleep(3000);
                         locatorType = null;
                         break;
+                    case "switchToDefault":
+                        if (locatorValue.equals("NA")){
+                            action.equalsIgnoreCase("switchToDefault");
+                                driver.switchTo().defaultContent();
+                                Thread.sleep(2000);
+                        }
                     default:
                         break;
                     }
                 } catch (Exception e) {
+                e.printStackTrace();
             }
         }
     }

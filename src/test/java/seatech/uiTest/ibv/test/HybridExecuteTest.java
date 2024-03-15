@@ -25,6 +25,6 @@ public class HybridExecuteTest  {
     @Test( testName = "TC-1", priority = 1)
     public void loginTest() throws InterruptedException {
         HybridDriven hybridDriven= new HybridDriven();
-        hybridDriven.startExecution("login");
+        hybridDriven.startExecution("ck trong");
     }
 }
