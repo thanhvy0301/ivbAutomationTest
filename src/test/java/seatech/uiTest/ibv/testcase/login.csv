@@ -1,0 +1,11 @@
+TestCase,Keyword,Object,ObjectType,value
+Reset Login In Application,,,,
+,GOTOURL,,,url
+,SETTEXT,username,name,mgr123
+,SETTEXT,password,name,mgr!23
+,CLICK,resetButton,name,
+Login In Application,,,,
+,GOTOURL,,,url
+,SETTEXT,username,name,mgr123
+,SETTEXT,password,name,mgr!23
+,CLICK,loginButton,name,

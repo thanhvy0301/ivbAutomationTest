@@ -1,0 +1,5 @@
+Test Case ID,Test Case Description,Username maker,Password maker,Username checker,Password checker,capcha,type ,receive account,amount,content,account number,type authen,authen device,fee transaction,otp,Condition
+TC-1,Correct username and correct password should redirect to maker page,1001470_maker2,111111,checker_duy,111111,12345,accountNumber,1231231-2312,11111,content,1001470-001,SM,0378501714,0,123123,successApproveRemittanceCorporateOp
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+TC-2,Correct username and correct password should redirect to checker page ,oncheck131@oncheck.com.vn,7BKoPfrXjzg6,,,,,,,,,,,,,user-manual-modal-content

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-20T17:50:16 ICT" name="Default suite" finished-at="2023-12-20T17:51:13 ICT" duration-ms="57283">
+    <groups>
+    </groups>
+    <test started-at="2023-12-20T17:50:16 ICT" name="Default test" finished-at="2023-12-20T17:51:13 ICT" duration-ms="57283">
+      <class name="seatech.uiTest.ibv.test.TestCreatetransaction247">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:50:16 ICT" name="setUp" finished-at="2023-12-20T17:50:19 ICT" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCreateTransaction247Success_TC1(seatech.ibv.data.CreateTransaction247Data)[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:50:19 ICT" name="TestCreateTransaction247Success_TC1" data-provider="createTransaction247" finished-at="2023-12-20T17:50:48 ICT" duration-ms="28445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seatech.ibv.data.CreateTransaction247Data@6090f3ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCreateTransaction247Success_TC1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:50:48 ICT" name="tearDown" finished-at="2023-12-20T17:50:48 ICT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:50:48 ICT" name="captureScreenshotOnFailure" finished-at="2023-12-20T17:50:48 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCreateTransaction247Success_TC1 status=SUCCESS method=TestCreatetransaction247.TestCreateTransaction247Success_TC1(seatech.ibv.data.CreateTransaction247Data)[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:50:48 ICT" name="setUp" finished-at="2023-12-20T17:50:51 ICT" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCreateTransaction247Success_TC2(seatech.ibv.data.CreateTransaction247Data)[pri:1, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:50:51 ICT" name="TestCreateTransaction247Success_TC2" data-provider="createTransaction247" finished-at="2023-12-20T17:51:10 ICT" duration-ms="18953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seatech.ibv.data.CreateTransaction247Data@260ff5b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCreateTransaction247Success_TC2 -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:51:10 ICT" name="captureScreenshotOnFailure" finished-at="2023-12-20T17:51:10 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCreateTransaction247Success_TC2 status=SUCCESS method=TestCreatetransaction247.TestCreateTransaction247Success_TC2(seatech.ibv.data.CreateTransaction247Data)[pri:1, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:51:10 ICT" name="tearDown" finished-at="2023-12-20T17:51:10 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:51:10 ICT" name="setUp" finished-at="2023-12-20T17:51:13 ICT" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCreateTransaction247Success_TC3(seatech.ibv.data.CreateTransaction247Data)[pri:2, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:51:13 ICT" name="TestCreateTransaction247Success_TC3" data-provider="createTransaction247" finished-at="2023-12-20T17:51:13 ICT" duration-ms="408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seatech.ibv.data.CreateTransaction247Data@2ddb3ae8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCreateTransaction247Success_TC3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:51:13 ICT" name="tearDown" finished-at="2023-12-20T17:51:13 ICT" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b]" started-at="2023-12-20T17:51:13 ICT" name="captureScreenshotOnFailure" finished-at="2023-12-20T17:51:13 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCreateTransaction247Success_TC3 status=SUCCESS method=TestCreatetransaction247.TestCreateTransaction247Success_TC3(seatech.ibv.data.CreateTransaction247Data)[pri:2, instance:seatech.uiTest.ibv.test.TestCreatetransaction247@7bd4937b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+      </class> <!-- seatech.uiTest.ibv.test.TestCreatetransaction247 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

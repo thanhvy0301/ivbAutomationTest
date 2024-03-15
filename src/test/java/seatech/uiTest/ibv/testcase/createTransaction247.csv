@@ -1,0 +1,4 @@
+Test Case ID,Test Case Description,Username maker,Password maker,Username checker,Password checker,capcha,account number,receive bank,receive account,amount,content,otp,Condition
+TC-1,Correct username and correct password should redirect to maker page,5013001_maker1,111111,6285889_checker,111111,12345,6285889-001,Ngan hang TMCP Dong A HCM (DAB),129837294,10000,content,123456,successApproveRemittanceCorporateOp
+TC-2,Correct username and correct password should redirect to maker page,5013001_maker1,111111,6285889_checker,111111,12345,6285889-001,Ngan hang TMCP Dong A HCM (DAB),129837294,100,content,123457,queryRemittanceCorporateOp
+TC-3,Correct username and correct password should redirect to maker page,5013001_maker1,111112,6285889_checker,111111,12345,6285889-002,Ngan hang TMCP Dong A HCM (DAB),129837294,10000,content,123457,
