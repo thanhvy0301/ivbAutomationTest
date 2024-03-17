@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
-import seatech.common.baseBrowser.Base;
 
 import seatech.common.functions.CommonFunctions;
 import seatech.ibv.data.BaseData;
@@ -17,7 +16,7 @@ public class HybridExecuteTest  {
 
     private WebDriver driver;
     CommonFunctions commonFunctions = new CommonFunctions(driver);
-    Base base;
+//    Base base;
     @FindBy(xpath = "//span[contains(text(),'Xin lỗi')]")
     public WebElement showNotice;
     @FindBy(name = "button")

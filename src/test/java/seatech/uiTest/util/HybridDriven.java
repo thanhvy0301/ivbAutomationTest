@@ -31,8 +31,8 @@ public class HybridDriven {
     /*ReadProperties readProperties;*/
     public WebElement element;
     public CommonFunctions cFunc;
-
-    public final String SCENARIO_SHEET_PATH = "C:\\Users\\Admin\\Desktop\\automation-test-master\\src\\test\\java\\seatech\\uiTest\\ibv\\testcase\\hubspot_scenarios.xlsx";
+    String projectPath = System.getProperty("user.dir");
+    public final String SCENARIO_SHEET_PATH = projectPath+"\\src\\test\\java\\seatech\\uiTest\\ibv\\testcase\\hubspot_scenarios.xlsx";
     public void startExecution(String sheetName) {
 
         FileInputStream file = null;
