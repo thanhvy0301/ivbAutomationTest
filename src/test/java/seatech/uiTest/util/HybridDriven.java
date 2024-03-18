@@ -10,13 +10,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import org.testng.asserts.SoftAssert;
 import seatech.common.baseBrowser.Base;
 import seatech.common.functions.CommonFunctions;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Properties;
 
 public class HybridDriven {
@@ -30,10 +33,12 @@ public class HybridDriven {
     public Base base;
     /*ReadProperties readProperties;*/
     public WebElement element;
-    public CommonFunctions cFunc;
+    //public CommonFunctions cFunc;
+
     String projectPath = System.getProperty("user.dir");
     public final String SCENARIO_SHEET_PATH = projectPath+"\\src\\test\\java\\seatech\\uiTest\\ibv\\testcase\\hubspot_scenarios.xlsx";
     public void startExecution(String sheetName) {
+        SoftAssert softAssert = new SoftAssert();
 
         FileInputStream file = null;
         try {
@@ -58,7 +63,7 @@ public class HybridDriven {
                 String locatorValue = sheet.getRow(i + 1).getCell(k + 2).toString().trim();
                 String action = sheet.getRow(i + 1).getCell(k + 3).toString().trim();
                 String value1 = sheet.getRow(i + 1).getCell(k + 4).toString().trim();
-                //String value2 = sheet.getRow(i + 1).getCell(k + 5).toString().trim();
+                String verify = sheet.getRow(i + 1).getCell(k + 5).toString().trim();
 
                 switch (action) {
                     case "open browser":
@@ -91,18 +96,25 @@ public class HybridDriven {
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
                             element.sendKeys(value1);
+                            Log.info("SendKeys: "+value1);
 //                            Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("click")) {
+                            Thread.sleep(2000);
                             element.click();
+                            Log.info("Click: "+ locatorValue);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
 //                            Thread.sleep(3000);
                             element.isDisplayed();
-                        } else if (action.equalsIgnoreCase("getText")) {
+                            Log.info("Display: "+ locatorValue);
+                        }
+                        else if (action.equalsIgnoreCase("getText")) {
                             String elementText = element.getText();
                             System.out.println("text from element : " + elementText);
                         } else if (action.equalsIgnoreCase("switchTo")) {
-                            driver.switchTo().frame(element);
-                            Thread.sleep(2000);
+                            //cFunc.waitVisible(driver.findElement(By.id(locatorValue)));
+                            Thread.sleep(3000);
+                            driver.switchTo().frame(driver.findElement(By.id(locatorValue)));
+                            Log.info("Switch to: "+locatorValue);
                         }
                         else if (action.equalsIgnoreCase("switchToDefault")) {
                             driver.switchTo().defaultContent();
@@ -134,20 +146,25 @@ public class HybridDriven {
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
                             element.sendKeys(value1);
+                            Log.info("SendKeys:" +value1);
                         } else if (action.equalsIgnoreCase("click")) {
+                            //cFunc.waitVisible(element);
                             element.click();
+                            Log.info("Click:" +locatorValue);
                             Thread.sleep(2000);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
-                            cFunc.waitVisible(element);
+                            //cFunc.waitVisible(element);
                             element.isDisplayed();
+                            Log.info("Display: "+locatorValue);
                         } else if (action.equalsIgnoreCase("getText")) {
                             String elementText = element.getText();
                             System.out.println("text from element : " + elementText);
                         }
-                        /*else if (action.equalsIgnoreCase("select")) {
-                            selectElement.selectByVisibleText(value1);
-                            Thread.sleep(3000);
-                        }*/
+                        else if (action.equalsIgnoreCase("verifyText")) {
+                            String actualText = driver.findElement(By.xpath(locatorValue)).getText();
+                            softAssert.assertEquals(actualText, verify);
+                            Log.info("Actual Text: " +actualText + "Expected Text: "+verify +"Verification passed");
+                        }
                         locatorType = null;
                         break;
                     case "cssSelector":
@@ -198,15 +215,17 @@ public class HybridDriven {
                     case "switchToDefault":
                         if (locatorValue.equals("NA")){
                             action.equalsIgnoreCase("switchToDefault");
-                                driver.switchTo().defaultContent();
-                                Thread.sleep(2000);
+                            driver.switchTo().defaultContent();
+                            Log.info("Switch to default: "+locatorValue);
+                            Thread.sleep(2000);
                         }
                     default:
                         break;
-                    }
-                } catch (Exception e) {
+                }
+            } catch (Exception e) {
                 e.printStackTrace();
             }
+            softAssert.assertAll();
         }
     }
 }

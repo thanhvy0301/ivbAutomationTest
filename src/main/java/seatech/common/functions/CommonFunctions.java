@@ -3,7 +3,6 @@ package seatech.common.functions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -22,10 +21,9 @@ public class CommonFunctions {
         driver.switchTo().frame(xpathFrame);
     }
 
-    public WebElement waitVisible(WebElement webElement) {
+    public void waitVisible(WebElement webElement) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.visibilityOf(webElement));
-        return webElement;
     }
     //span[contains(text(),'Xin lỗi')]
 
