@@ -163,7 +163,7 @@ public class HybridDriven {
                         else if (action.equalsIgnoreCase("verifyText")) {
                             String actualText = driver.findElement(By.xpath(locatorValue)).getText();
                             softAssert.assertEquals(actualText, verify);
-                            Log.info("Actual Text: " +actualText + "Expected Text: "+verify +"Verification passed");
+                            //Log.info("Actual Text: " +actualText + "Expected Text: "+verify +"Verification passed");
                         }
                         locatorType = null;
                         break;
@@ -172,7 +172,7 @@ public class HybridDriven {
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
                             element.sendKeys(value1);
-                            Thread.sleep(3000);
+                            Thread.sleep(2000);
                         } else if (action.equalsIgnoreCase("click")) {
                             element.click();
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
@@ -225,7 +225,9 @@ public class HybridDriven {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            softAssert.assertAll();
+           // softAssert.assertAll();
         }
+        softAssert.assertAll();
+
     }
 }
