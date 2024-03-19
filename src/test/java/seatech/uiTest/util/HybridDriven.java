@@ -1,12 +1,17 @@
 package seatech.uiTest.util;
 
+import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
+import io.qameta.allure.Step;
+import jdk.jfr.Description;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import seatech.common.baseBrowser.Base;
 
@@ -51,6 +56,7 @@ public class HybridDriven {
         sheet = book.getSheet(sheetName);
         int k = 1;
         for (int i = 0; i < sheet.getLastRowNum(); i++) {
+
             try {
                 String locatorType = sheet.getRow(i + 1).getCell(k + 1).toString().trim();
                 String locatorValue = sheet.getRow(i + 1).getCell(k + 2).toString().trim();
@@ -78,6 +84,7 @@ public class HybridDriven {
                         break;
 
                     case "quit":
+                        Thread.sleep(3000);
                         driver.quit();
                         break;
                     default:
