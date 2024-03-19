@@ -1,0 +1,78 @@
+[INFO ] 19-03-2024 09:15:07 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:15:12 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:15:12 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:15:12 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:15:13 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:15:16 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:15:17 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 19-03-2024 09:16:25 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:16:29 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:16:29 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:16:29 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:16:30 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:16:32 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:16:33 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 19-03-2024 09:18:46 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:18:49 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:18:49 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:18:49 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:18:49 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:18:52 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:18:53 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 19-03-2024 09:20:24 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:20:28 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:20:28 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:20:28 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:20:29 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:20:31 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:20:33 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 19-03-2024 09:23:48 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:23:52 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:23:52 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:23:52 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:23:53 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:23:56 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:24:02 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 19-03-2024 09:26:02 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:26:06 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:26:06 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:26:06 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:26:07 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:26:09 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:26:10 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 19-03-2024 09:26:34 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:26:37 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:26:37 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:26:37 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:26:38 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:26:40 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:26:41 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 19-03-2024 09:28:51 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:28:56 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:28:56 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:28:56 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:28:57 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:28:59 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:29:01 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 19-03-2024 09:32:03 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:32:08 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:32:08 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:32:08 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:32:08 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:32:10 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:32:12 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 19-03-2024 09:34:12 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:35:16 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:35:19 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:35:19 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:35:19 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:35:20 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:35:22 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:35:23 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 19-03-2024 09:35:58 [main] Log - Run Testcase
+[INFO ] 19-03-2024 09:36:01 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 19-03-2024 09:36:01 [main] Log - SendKeys: 111111
+[INFO ] 19-03-2024 09:36:01 [main] Log - SendKeys: 12345.0
+[INFO ] 19-03-2024 09:36:02 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 19-03-2024 09:36:04 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 19-03-2024 09:36:05 [main] Log - Click://input[contains(@name,'button')]
