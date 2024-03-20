@@ -14,6 +14,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import seatech.common.baseBrowser.Base;
+import seatech.common.config.PropertiesFile;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -22,7 +23,7 @@ import java.util.Properties;
 
 public class HybridDriven {
 
-    public WebDriver driver;
+     WebDriver driver;
     public Properties prop;
 
     public static Workbook book;
@@ -32,7 +33,9 @@ public class HybridDriven {
     /*ReadProperties readProperties;*/
     public WebElement element;
     //public CommonFunctions cFunc;
-
+    public HybridDriven(WebDriver driver){
+        this.driver =driver;
+    }
     String projectPath = System.getProperty("user.dir");
     public final String SCENARIO_SHEET_PATH = projectPath+"\\src\\test\\java\\seatech\\uiTest\\ibv\\testcase\\hubspot_scenarios.xlsx";
     public void startExecution(String sheetName) {
@@ -77,7 +80,7 @@ public class HybridDriven {
 
                     case "enter url":
                         if (value1.isEmpty() || value1.equals("NA")) {
-                            driver.get(prop.getProperty("url"));
+                            driver.get(PropertiesFile.getPropValue("url"));
                         } else {
                             driver.get(value1);
                         }

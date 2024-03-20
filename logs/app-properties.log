@@ -635,3 +635,295 @@
 [INFO ] 19-03-2024 17:14:47 [main] Log - SendKeys: 111111
 [INFO ] 19-03-2024 17:14:47 [main] Log - SendKeys: 12345.0
 [INFO ] 19-03-2024 17:14:48 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 09:12:55 [main] Log - Run Testcase
+[INFO ] 20-03-2024 09:13:01 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 09:13:01 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 09:13:01 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 09:13:01 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 09:13:03 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 09:13:09 [main] Log - Run Testcase
+[INFO ] 20-03-2024 09:13:12 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 20-03-2024 09:13:12 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 09:13:12 [main] Log - SendKeys: 12345.0
+[INFO ] 20-03-2024 09:13:14 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 09:56:35 [main] Log - Run Testcase
+[INFO ] 20-03-2024 09:56:39 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 09:56:39 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 09:56:39 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 09:56:39 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 09:56:41 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:02:56 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:03:00 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:03:00 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:03:00 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:03:00 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:03:02 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:07:58 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:08:02 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:08:02 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:08:02 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:08:02 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:08:04 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:11:38 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:11:41 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:11:41 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:11:41 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:11:41 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:11:43 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:12:19 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:12:22 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 20-03-2024 10:12:22 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:12:22 [main] Log - SendKeys: 12345.0
+[INFO ] 20-03-2024 10:12:24 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:14:05 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:14:09 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:14:09 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:14:09 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:14:09 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:14:11 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:14:17 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:14:19 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 20-03-2024 10:14:19 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:14:19 [main] Log - SendKeys: 12345.0
+[INFO ] 20-03-2024 10:14:19 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:16:10 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:16:13 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:16:13 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:16:13 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:16:14 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:16:16 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:19:10 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:19:14 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:19:14 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:19:14 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:19:14 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:19:16 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:20:40 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:20:44 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:20:44 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:20:44 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:20:44 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:20:46 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:21:32 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:21:36 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:21:36 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:21:36 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:21:36 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:21:38 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:23:45 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:23:48 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:23:48 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:23:48 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:23:48 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:23:51 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:25:13 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:25:18 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:25:18 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:25:18 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:25:18 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:25:20 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:25:23 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:25:26 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 20-03-2024 10:25:27 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:25:27 [main] Log - SendKeys: 12345.0
+[INFO ] 20-03-2024 10:25:28 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:41:34 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:41:38 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:41:38 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:41:38 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:41:38 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:41:40 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:42:32 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:42:41 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:42:41 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:42:41 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:42:41 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:42:43 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:55:49 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:55:54 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:55:54 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:55:54 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:55:54 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:55:56 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:57:13 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:57:18 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 10:57:18 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:57:18 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 10:57:18 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:57:20 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 10:57:24 [main] Log - Run Testcase
+[INFO ] 20-03-2024 10:57:28 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 20-03-2024 10:57:28 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 10:57:28 [main] Log - SendKeys: 12345.0
+[INFO ] 20-03-2024 10:57:30 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 10:57:35 [main] Log - Switch to: infoFrame
+[INFO ] 20-03-2024 10:57:35 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 20-03-2024 10:57:37 [main] Log - Switch to default: NA
+[INFO ] 20-03-2024 10:57:42 [main] Log - Switch to: tranFrame
+[INFO ] 20-03-2024 10:57:42 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 20-03-2024 10:57:46 [main] Log - Click: selectAccountNo
+[INFO ] 20-03-2024 10:57:47 [main] Log - Click://option[contains(text(),'5013001-002')]
+[INFO ] 20-03-2024 10:57:51 [main] Log - Click: receiveAccount
+[INFO ] 20-03-2024 10:57:51 [main] Log - Click://option[contains(text(),'5013001-001')]
+[INFO ] 20-03-2024 10:57:53 [main] Log - SendKeys: 33333
+[INFO ] 20-03-2024 10:57:53 [main] Log - SendKeys: Chuyển tiền trong hệ thống cùng chủ loại tiền VND
+[INFO ] 20-03-2024 10:57:55 [main] Log - Click: chkApp1
+[INFO ] 20-03-2024 10:57:58 [main] Log - Click: submit1
+[INFO ] 20-03-2024 10:58:00 [main] Log - Click: submit1
+[INFO ] 20-03-2024 10:58:00 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 20-03-2024 10:58:01 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 20-03-2024 10:58:03 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 20-03-2024 10:58:05 [main] Log - Switch to default: NA
+[INFO ] 20-03-2024 10:58:10 [main] Log - Switch to: tranFrame
+[INFO ] 20-03-2024 10:58:10 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 20-03-2024 10:58:14 [main] Log - Click: selectAccountNo
+[INFO ] 20-03-2024 10:58:14 [main] Log - Click://option[contains(text(),'5013001-002')]
+[INFO ] 20-03-2024 10:58:18 [main] Log - Click: receiveAccount
+[INFO ] 20-03-2024 10:58:18 [main] Log - Click://option[contains(text(),'5013001-030')]
+[INFO ] 20-03-2024 10:58:21 [main] Log - SendKeys: 12345.0
+[INFO ] 20-03-2024 10:58:21 [main] Log - SendKeys: TestData3
+[INFO ] 20-03-2024 10:58:23 [main] Log - Click: chkApp1
+[INFO ] 20-03-2024 10:58:25 [main] Log - Click: submit1
+[INFO ] 20-03-2024 10:58:28 [main] Log - Click: submit1
+[INFO ] 20-03-2024 10:58:28 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 20-03-2024 10:58:29 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 20-03-2024 10:58:31 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 20-03-2024 10:58:33 [main] Log - Switch to default: NA
+[INFO ] 20-03-2024 10:58:38 [main] Log - Switch to: tranFrame
+[INFO ] 20-03-2024 10:58:38 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 20-03-2024 10:58:42 [main] Log - Click: selectAccountNo
+[INFO ] 20-03-2024 10:58:42 [main] Log - Click://option[contains(text(),'5013001-002')]
+[INFO ] 20-03-2024 10:58:46 [main] Log - Click: receiveAccount
+[INFO ] 20-03-2024 10:58:46 [main] Log - Click://option[contains(text(),'5013001-030')]
+[INFO ] 20-03-2024 10:58:49 [main] Log - SendKeys: 20121.0
+[INFO ] 20-03-2024 10:58:49 [main] Log - SendKeys: TestData3
+[INFO ] 20-03-2024 10:58:51 [main] Log - Click: chkApp1
+[INFO ] 20-03-2024 10:58:53 [main] Log - Click: submit1
+[INFO ] 20-03-2024 10:58:56 [main] Log - Click: submit1
+[INFO ] 20-03-2024 10:58:56 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 20-03-2024 10:58:56 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 20-03-2024 11:07:58 [main] Log - Run Testcase
+[INFO ] 20-03-2024 11:08:02 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 11:08:02 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 11:08:02 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 11:08:02 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 11:08:05 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 11:08:15 [main] Log - Run Testcase
+[INFO ] 20-03-2024 11:08:20 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 20-03-2024 11:08:20 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 11:08:20 [main] Log - SendKeys: 12345.0
+[INFO ] 20-03-2024 11:08:20 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 11:08:22 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 20-03-2024 11:08:24 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 20-03-2024 11:08:29 [main] Log - Switch to: infoFrame
+[INFO ] 20-03-2024 11:08:29 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 20-03-2024 11:08:31 [main] Log - Switch to default: NA
+[INFO ] 20-03-2024 11:08:36 [main] Log - Switch to: tranFrame
+[INFO ] 20-03-2024 11:08:36 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 20-03-2024 11:08:40 [main] Log - Click: selectAccountNo
+[INFO ] 20-03-2024 11:08:41 [main] Log - Click://option[contains(text(),'5013001-002')]
+[INFO ] 20-03-2024 11:08:45 [main] Log - Click: receiveAccount
+[INFO ] 20-03-2024 11:08:45 [main] Log - Click://option[contains(text(),'5013001-001')]
+[INFO ] 20-03-2024 11:08:47 [main] Log - SendKeys: 33333
+[INFO ] 20-03-2024 11:08:47 [main] Log - SendKeys: Chuyển tiền trong hệ thống cùng chủ loại tiền VND
+[INFO ] 20-03-2024 11:08:49 [main] Log - Click: chkApp1
+[INFO ] 20-03-2024 11:08:52 [main] Log - Click: submit1
+[INFO ] 20-03-2024 11:08:54 [main] Log - Click: submit1
+[INFO ] 20-03-2024 11:08:54 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 20-03-2024 11:08:55 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 20-03-2024 11:08:57 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 20-03-2024 11:08:59 [main] Log - Switch to default: NA
+[INFO ] 20-03-2024 11:09:04 [main] Log - Switch to: tranFrame
+[INFO ] 20-03-2024 11:09:04 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 20-03-2024 11:09:08 [main] Log - Click: selectAccountNo
+[INFO ] 20-03-2024 11:09:08 [main] Log - Click://option[contains(text(),'5013001-002')]
+[INFO ] 20-03-2024 11:09:12 [main] Log - Click: receiveAccount
+[INFO ] 20-03-2024 11:09:12 [main] Log - Click://option[contains(text(),'5013001-030')]
+[INFO ] 20-03-2024 11:09:15 [main] Log - SendKeys: 12345.0
+[INFO ] 20-03-2024 11:09:15 [main] Log - SendKeys: TestData3
+[INFO ] 20-03-2024 11:09:17 [main] Log - Click: chkApp1
+[INFO ] 20-03-2024 11:09:19 [main] Log - Click: submit1
+[INFO ] 20-03-2024 11:09:22 [main] Log - Click: submit1
+[INFO ] 20-03-2024 11:09:22 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 20-03-2024 11:09:22 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 20-03-2024 11:09:24 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 20-03-2024 11:09:26 [main] Log - Switch to default: NA
+[INFO ] 20-03-2024 11:09:31 [main] Log - Switch to: tranFrame
+[INFO ] 20-03-2024 11:09:31 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 20-03-2024 11:09:36 [main] Log - Click: selectAccountNo
+[INFO ] 20-03-2024 11:09:36 [main] Log - Click://option[contains(text(),'5013001-002')]
+[INFO ] 20-03-2024 11:09:40 [main] Log - Click: receiveAccount
+[INFO ] 20-03-2024 11:09:40 [main] Log - Click://option[contains(text(),'5013001-030')]
+[INFO ] 20-03-2024 11:09:42 [main] Log - SendKeys: 20121.0
+[INFO ] 20-03-2024 11:09:42 [main] Log - SendKeys: TestData3
+[INFO ] 20-03-2024 11:09:44 [main] Log - Click: chkApp1
+[INFO ] 20-03-2024 11:09:47 [main] Log - Click: submit1
+[INFO ] 20-03-2024 11:09:49 [main] Log - Click: submit1
+[INFO ] 20-03-2024 11:09:49 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 20-03-2024 11:09:50 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 20-03-2024 12:29:03 [main] Log - Run Testcase
+[INFO ] 20-03-2024 12:29:09 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 12:29:09 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 12:29:09 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 12:29:09 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 12:29:11 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 12:35:59 [main] Log - Run Testcase
+[INFO ] 20-03-2024 12:36:03 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 12:36:03 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 12:36:03 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 12:36:03 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 12:36:05 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 12:37:55 [main] Log - Run Testcase
+[INFO ] 20-03-2024 12:37:59 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 12:37:59 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 12:37:59 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 12:37:59 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 12:38:01 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 12:38:53 [main] Log - Run Testcase
+[INFO ] 20-03-2024 12:38:56 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 12:38:57 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 12:38:57 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 12:38:57 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 12:38:59 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 12:41:04 [main] Log - Run Testcase
+[INFO ] 20-03-2024 12:41:07 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 12:41:07 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 12:41:07 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 12:41:07 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 12:41:09 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 12:44:48 [main] Log - Run Testcase
+[INFO ] 20-03-2024 12:44:48 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 12:44:48 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 12:44:48 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 12:44:48 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 12:44:50 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 12:45:52 [main] Log - Run Testcase
+[INFO ] 20-03-2024 12:45:53 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 12:45:53 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 12:45:53 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 12:45:53 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 12:45:55 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 12:48:56 [main] Log - Run Testcase
+[INFO ] 20-03-2024 12:48:56 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 12:48:56 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 12:48:56 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 12:48:56 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 12:48:58 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 12:51:15 [main] Log - Run Testcase
+[INFO ] 20-03-2024 12:51:15 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 12:51:15 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 12:51:16 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 12:51:16 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 12:51:18 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 12:54:42 [main] Log - Run Testcase
+[INFO ] 20-03-2024 12:54:45 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 12:54:45 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 12:54:45 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 12:54:45 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 12:54:47 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 20-03-2024 13:00:42 [main] Log - Run Testcase
+[INFO ] 20-03-2024 13:00:45 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 20-03-2024 13:00:45 [main] Log - SendKeys: 111111
+[INFO ] 20-03-2024 13:00:45 [main] Log - SendKeys: 
+[INFO ] 20-03-2024 13:00:45 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 20-03-2024 13:00:47 [main] Log - Actual Text: Vui lòng nhập mã xác thực

@@ -1,9 +1,11 @@
 package seatech.common.baseBrowser;
 
+import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -14,7 +16,6 @@ public class Base {
 
         public WebDriver driver;
         public Properties prop;
-
         public WebDriver init_driver(String browserName){
             if(browserName.equals("chrome")){//
                 driver = new ChromeDriver();
@@ -26,7 +27,6 @@ public class Base {
             }
             return driver;
         }
-
         public Properties init_properties(){
             prop = new Properties();
             try {
