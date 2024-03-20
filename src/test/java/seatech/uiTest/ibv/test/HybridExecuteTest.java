@@ -20,7 +20,6 @@ import seatech.common.config.PropertiesFile;
 import seatech.common.functions.AllureListeners;
 import seatech.common.functions.CaptureHelpers;
 import seatech.common.functions.CommonFunctions;
-import seatech.ibv.data.BaseData;
 import seatech.uiTest.util.HybridDriven;
 import seatech.uiTest.util.Log;
 import seatech.uiTest.util.ReadExcelFile;

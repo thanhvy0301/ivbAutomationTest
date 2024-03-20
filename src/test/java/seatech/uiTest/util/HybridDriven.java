@@ -10,6 +10,9 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -19,6 +22,7 @@ import seatech.common.config.PropertiesFile;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 
 public class HybridDriven {
@@ -36,6 +40,7 @@ public class HybridDriven {
     public HybridDriven(WebDriver driver){
         this.driver =driver;
     }
+//
     String projectPath = System.getProperty("user.dir");
     public final String SCENARIO_SHEET_PATH = projectPath+"\\src\\test\\java\\seatech\\uiTest\\ibv\\testcase\\hubspot_scenarios.xlsx";
     public void startExecution(String sheetName) {
@@ -57,6 +62,7 @@ public class HybridDriven {
         }
 
         sheet = book.getSheet(sheetName);
+
         int k = 1;
         for (int i = 0; i < sheet.getLastRowNum(); i++) {
 
@@ -100,13 +106,14 @@ public class HybridDriven {
                             element.clear();
                             element.sendKeys(value1);
                             Log.info("SendKeys: "+value1);
-//                            Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("click")) {
+//
                             Thread.sleep(2000);
                             element.click();
+                            Thread.sleep(2000);
                             Log.info("Click: "+ locatorValue);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
-//                            Thread.sleep(3000);
+//                            wait.until(ExpectedConditions.visibilityOfElementLocated((By) element));
                             element.isDisplayed();
                             Log.info("Display: "+ locatorValue);
                         }
@@ -115,13 +122,20 @@ public class HybridDriven {
                             System.out.println("text from element : " + elementText);
                         } else if (action.equalsIgnoreCase("switchTo")) {
                             //cFunc.waitVisible(driver.findElement(By.id(locatorValue)));
-                            Thread.sleep(3000);
+                            Thread.sleep(2000);
                             driver.switchTo().frame(driver.findElement(By.id(locatorValue)));
                             Log.info("Switch to: "+locatorValue);
                         }
                         else if (action.equalsIgnoreCase("switchToDefault")) {
                             driver.switchTo().defaultContent();
-                            Thread.sleep(2000);
+                            Log.info("Switch to default: "+locatorValue);
+                        }
+                        else if (action.equalsIgnoreCase("select")) {
+                            Select selectDropdown = new Select(element);
+                            Log.info("Select box: "+locatorValue);// Khởi tạo đối tượng Select
+                            selectDropdown.selectByValue(value1);
+                            Log.info("Select option: "+value1);
+                            // Chọn option theo visible text từ Excel
                         }
                         locatorType = null;
                         break;
@@ -152,9 +166,10 @@ public class HybridDriven {
                             Log.info("SendKeys:" +value1);
                         } else if (action.equalsIgnoreCase("click")) {
                             //cFunc.waitVisible(element);
-                            element.click();
-                            Log.info("Click:" +locatorValue);
                             Thread.sleep(2000);
+                            element.click();
+                            Thread.sleep(2000);
+                            Log.info("Click:" +locatorValue);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
                             //cFunc.waitVisible(element);
                             element.isDisplayed();
@@ -209,12 +224,9 @@ public class HybridDriven {
                         Thread.sleep(3000);
                         locatorType = null;
                         break;
-                    case "partialLinkText":
-                        element = driver.findElement(By.partialLinkText(locatorValue));
-                        element.click();
-                        Thread.sleep(3000);
-                        locatorType = null;
-                        break;
+                    /*case "select":
+
+                        break;*/
                     case "switchToDefault":
                         if (locatorValue.equals("NA")){
                             action.equalsIgnoreCase("switchToDefault");
@@ -222,7 +234,7 @@ public class HybridDriven {
                             Log.info("Switch to default: "+locatorValue);
                             Thread.sleep(2000);
                         }
-                    default:
+                        default:
                         break;
                 }
             } catch (Exception e) {
