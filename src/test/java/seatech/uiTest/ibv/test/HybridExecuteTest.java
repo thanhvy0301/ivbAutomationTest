@@ -32,7 +32,7 @@ public class HybridExecuteTest extends Base{
     Properties prop = new Properties();
     WebDriver driver ;
     @BeforeMethod //Hàm setup sẽ được khởi tạo sau mỗi lần thực thi 1 tc
-    public void setutp(){
+    public void setup(){
         PropertiesFile .setPropertiesFile();
         Properties prop = new Properties();
         driver= init_driver(PropertiesFile.getPropValue("browser")); //driver nào sẽ được sử dụng khi được lấy trong file config.properties với key là: browser
