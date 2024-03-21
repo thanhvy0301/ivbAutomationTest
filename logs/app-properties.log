@@ -1884,3 +1884,16 @@
 [INFO ] 20-03-2024 17:59:59 [main] Log - Click: submit1
 [INFO ] 20-03-2024 17:59:59 [main] Log - Actual Text: Giao dịch đang chờ duyệt
 [INFO ] 20-03-2024 18:00:03 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 11:07:13 [main] Log - Run TC-1
+[INFO ] 21-03-2024 11:07:52 [main] Log - Run TC-1
+[INFO ] 21-03-2024 11:07:54 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 21-03-2024 11:07:54 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 11:07:54 [main] Log - SendKeys: 
+[INFO ] 21-03-2024 11:07:58 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 11:07:58 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 21-03-2024 11:10:04 [main] Log - Run TC-1
+[INFO ] 21-03-2024 11:10:06 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 21-03-2024 11:10:06 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 11:10:06 [main] Log - SendKeys: 
+[INFO ] 21-03-2024 11:10:10 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 11:10:10 [main] Log - Actual Text: Vui lòng nhập mã xác thực

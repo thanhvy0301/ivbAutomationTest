@@ -16,28 +16,15 @@ public class Base {
 
         public WebDriver driver;
         public Properties prop;
+        //Hàm lựa chọn driver để run theo key browser trong file config
         public WebDriver init_driver(String browserName){
             if(browserName.equals("chrome")){//
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
             } else if(browserName.equals("firefox")){
-//                System.setProperty("webdriver.gecko.driver", "/Users/NaveenKhunteta/Downloads/geckodriver");
                 driver = new FirefoxDriver();
                 driver.manage().window().maximize();
             }
             return driver;
-        }
-        public Properties init_properties(){
-            prop = new Properties();
-            try {
-                String projectPath = System.getProperty("user.dir");
-                FileInputStream ip = new FileInputStream(projectPath+"\\src\\main\\resources\\config.properties");
-                prop.load(ip);
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            return prop;
         }
     }

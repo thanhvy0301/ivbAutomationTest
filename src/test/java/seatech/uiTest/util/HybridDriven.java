@@ -40,15 +40,17 @@ public class HybridDriven {
     public HybridDriven(WebDriver driver){
         this.driver =driver;
     }
-//
-    String projectPath = System.getProperty("user.dir");
-    public final String SCENARIO_SHEET_PATH = projectPath+"\\src\\test\\java\\seatech\\uiTest\\ibv\\testcase\\hubspot_scenarios.xlsx";
-    public void startExecution(String sheetName) {
-        SoftAssert softAssert = new SoftAssert();
 
+
+    String projectPath = System.getProperty("user.dir");
+    public void startExecution(String sheetName) {
+        Properties prop = new Properties();
+        SoftAssert softAssert = new SoftAssert();
+        PropertiesFile .setPropertiesFile();
         FileInputStream file = null;
         try {
-            file = new FileInputStream(SCENARIO_SHEET_PATH);
+            //đường dẫn đọc file excel từ file config với key là pathExcel
+            file = new FileInputStream(projectPath+PropertiesFile.getPropValue("pathExcel"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -65,30 +67,30 @@ public class HybridDriven {
 
         int k = 1;
         for (int i = 0; i < sheet.getLastRowNum(); i++) {
-
             try {
+                //Duyệt tuần tự mỗi cột trong excel, bắt đầu từ dòng thứ 1, k tương ứng với thứ tự cột trong excel
                 String locatorType = sheet.getRow(i + 1).getCell(k + 1).toString().trim();
                 String locatorValue = sheet.getRow(i + 1).getCell(k + 2).toString().trim();
                 String action = sheet.getRow(i + 1).getCell(k + 3).toString().trim();
-                String value1 = sheet.getRow(i + 1).getCell(k + 4).toString().trim();
+                String data1 = sheet.getRow(i + 1).getCell(k + 4).toString().trim();
                 String verify = sheet.getRow(i + 1).getCell(k + 5).toString().trim();
-
+                //switch action: xử lí hành động tương ứng với case có giá trị giống với cột action trong excel
                 switch (action) {
-                    case "open browser":
+/*                    case "open browser":
                         base = new Base();
                         prop = base.init_properties();
-                        if (value1.isEmpty() || value1.equals("NA")) {
+                        if (data1.isEmpty() || data1.equals("NA")) {
                             driver = base.init_driver(prop.getProperty("browser"));
                         } else {
-                            driver = base.init_driver(value1);
+                            driver = base.init_driver(data1);
                         }
-                        break;
+                        break;*/
 
-                    case "enter url":
-                        if (value1.isEmpty() || value1.equals("NA")) {
+                    case "enter url": //Nếu hành động được nhập trong excel là enter url thì driver sẽ mở url tương ứng
+                        if (data1.isEmpty() || data1.equals("NA")) {
                             driver.get(PropertiesFile.getPropValue("url"));
                         } else {
-                            driver.get(value1);
+                            driver.get(data1);
                         }
                         break;
 
@@ -99,21 +101,19 @@ public class HybridDriven {
                     default:
                         break;
                 }
+                //switch localType: xử lí hành động tuương ứng với giá trị trong excel
                 switch (locatorType) {
                     case "id":
                         element = driver.findElement(By.id(locatorValue));
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
-                            element.sendKeys(value1);
-                            Log.info("SendKeys: "+value1);
+                            element.sendKeys(data1);
+                            Log.info("SendKeys: "+data1);
                         } else if (action.equalsIgnoreCase("click")) {
-//
-                            Thread.sleep(2000);
                             element.click();
                             Thread.sleep(2000);
                             Log.info("Click: "+ locatorValue);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
-//                            wait.until(ExpectedConditions.visibilityOfElementLocated((By) element));
                             element.isDisplayed();
                             Log.info("Display: "+ locatorValue);
                         }
@@ -121,7 +121,6 @@ public class HybridDriven {
                             String elementText = element.getText();
                             System.out.println("text from element : " + elementText);
                         } else if (action.equalsIgnoreCase("switchTo")) {
-                            //cFunc.waitVisible(driver.findElement(By.id(locatorValue)));
                             Thread.sleep(2000);
                             driver.switchTo().frame(driver.findElement(By.id(locatorValue)));
                             Log.info("Switch to: "+locatorValue);
@@ -131,11 +130,11 @@ public class HybridDriven {
                             Log.info("Switch to default: "+locatorValue);
                         }
                         else if (action.equalsIgnoreCase("select")) {
+                            // Khởi tạo đối tượng Select
                             Select selectDropdown = new Select(element);
-                            Log.info("Select box: "+locatorValue);// Khởi tạo đối tượng Select
-                            selectDropdown.selectByValue(value1);
-                            Log.info("Select option: "+value1);
-                            // Chọn option theo visible text từ Excel
+                            Log.info("Select box: "+locatorValue);
+                            selectDropdown.selectByValue(data1);
+                            Log.info("Select option: "+data1);
                         }
                         locatorType = null;
                         break;
@@ -144,7 +143,7 @@ public class HybridDriven {
 
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
-                            element.sendKeys(value1);
+                            element.sendKeys(data1);
 //                            Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("click")) {
                             element.click();
@@ -162,11 +161,10 @@ public class HybridDriven {
                         //Select selectElement  = new Select(element);
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
-                            element.sendKeys(value1);
-                            Log.info("SendKeys:" +value1);
+                            element.sendKeys(data1);
+                            Log.info("SendKeys:" +data1);
                         } else if (action.equalsIgnoreCase("click")) {
                             //cFunc.waitVisible(element);
-                            Thread.sleep(2000);
                             element.click();
                             Thread.sleep(2000);
                             Log.info("Click:" +locatorValue);
@@ -179,8 +177,8 @@ public class HybridDriven {
                             System.out.println("text from element : " + elementText);
                         }
                         else if (action.equalsIgnoreCase("verifyText")) {
-                            String actualText = driver.findElement(By.xpath(locatorValue)).getText();
-                            softAssert.assertEquals(actualText, verify);
+                            String actualText = driver.findElement(By.xpath(locatorValue)).getText(); //Khởi tạo biến chứa text get từ locatorValue
+                            softAssert.assertEquals(actualText, verify); //So sánh actual text với expected text (verify: text mong muốn được nhập từ excel)
                             Log.info("Actual Text: "+actualText);
                         }
                         locatorType = null;
@@ -189,7 +187,7 @@ public class HybridDriven {
                         element = driver.findElement(By.cssSelector(locatorValue));
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
-                            element.sendKeys(value1);
+                            element.sendKeys(data1);
                             Thread.sleep(2000);
                         } else if (action.equalsIgnoreCase("click")) {
                             element.click();
@@ -205,7 +203,7 @@ public class HybridDriven {
                         element = driver.findElement(By.className(locatorValue));
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
-                            element.sendKeys(value1);
+                            element.sendKeys(data1);
                             Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("click")) {
                             element.click();
@@ -224,9 +222,6 @@ public class HybridDriven {
                         Thread.sleep(3000);
                         locatorType = null;
                         break;
-                    /*case "select":
-
-                        break;*/
                     case "switchToDefault":
                         if (locatorValue.equals("NA")){
                             action.equalsIgnoreCase("switchToDefault");
@@ -242,7 +237,7 @@ public class HybridDriven {
             }
            // softAssert.assertAll();
         }
-        softAssert.assertAll();
+        softAssert.assertAll();// Sau khi thực thi toàn bộ testcase thì sẽ hiển thị tất cả các assert fail
 
     }
 }
