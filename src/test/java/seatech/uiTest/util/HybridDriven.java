@@ -37,13 +37,14 @@ public class HybridDriven {
         this.driver =driver;
     }
     String projectPath = System.getProperty("user.dir");
-    public final String SCENARIO_SHEET_PATH = projectPath+"\\src\\test\\java\\seatech\\uiTest\\ibv\\testcase\\hubspot_scenarios.xlsx";
+    //public final String SCENARIO_SHEET_PATH = projectPath+"\\src\\test\\java\\seatech\\uiTest\\ibv\\testcase\\hubspot_scenarios.xlsx";
     public void startExecution(String sheetName) {
         SoftAssert softAssert = new SoftAssert();
-
+        PropertiesFile .setPropertiesFile();
+        Properties prop = new Properties();
         FileInputStream file = null;
         try {
-            file = new FileInputStream(SCENARIO_SHEET_PATH);
+            file = new FileInputStream(projectPath+PropertiesFile.getPropValue("pathExcel"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

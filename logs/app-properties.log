@@ -933,3 +933,60 @@
 [INFO ] 21-03-2024 11:53:03 [main] Log - SendKeys: 
 [INFO ] 21-03-2024 11:53:03 [main] Log - Click://button[contains(.,'Đăng nhập')]
 [INFO ] 21-03-2024 11:53:05 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 21-03-2024 11:59:03 [main] Log - Run Testcase
+[INFO ] 21-03-2024 11:59:05 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 21-03-2024 11:59:05 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 11:59:05 [main] Log - SendKeys: 
+[INFO ] 21-03-2024 11:59:05 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 11:59:07 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 21-03-2024 11:59:52 [main] Log - Run Testcase
+[INFO ] 21-03-2024 11:59:55 [main] Log - SendKeys: 5013001_maker1
+[INFO ] 21-03-2024 11:59:55 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 11:59:55 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 11:59:56 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 12:00:01 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 12:00:02 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 12:00:04 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 12:00:09 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 12:00:09 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 12:00:13 [main] Log - Click: selectAccountNo
+[INFO ] 21-03-2024 12:00:13 [main] Log - Click://option[contains(text(),'5013001-002')]
+[INFO ] 21-03-2024 12:00:17 [main] Log - Click: receiveAccount
+[INFO ] 21-03-2024 12:00:17 [main] Log - Click://option[contains(text(),'5013001-001')]
+[INFO ] 21-03-2024 12:00:19 [main] Log - SendKeys: 33333
+[INFO ] 21-03-2024 12:00:20 [main] Log - SendKeys: Chuyển tiền trong hệ thống cùng chủ loại tiền VND
+[INFO ] 21-03-2024 12:00:22 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 12:00:24 [main] Log - Click: submit1
+[INFO ] 21-03-2024 12:00:26 [main] Log - Click: submit1
+[INFO ] 21-03-2024 12:00:26 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 12:00:27 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 12:00:29 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 12:00:31 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 12:00:36 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 12:00:36 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 12:00:40 [main] Log - Click: selectAccountNo
+[INFO ] 21-03-2024 12:00:41 [main] Log - Click://option[contains(text(),'5013001-002')]
+[INFO ] 21-03-2024 12:00:45 [main] Log - Click: receiveAccount
+[INFO ] 21-03-2024 12:00:45 [main] Log - Click://option[contains(text(),'5013001-030')]
+[INFO ] 21-03-2024 12:00:47 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 12:00:47 [main] Log - SendKeys: TestData3
+[INFO ] 21-03-2024 12:00:49 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 12:00:52 [main] Log - Click: submit1
+[INFO ] 21-03-2024 12:00:54 [main] Log - Click: submit1
+[INFO ] 21-03-2024 12:00:54 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 12:00:55 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 12:00:57 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 12:00:59 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 12:01:04 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 12:01:04 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 12:01:08 [main] Log - Click: selectAccountNo
+[INFO ] 21-03-2024 12:01:08 [main] Log - Click://option[contains(text(),'5013001-002')]
+[INFO ] 21-03-2024 12:01:12 [main] Log - Click: receiveAccount
+[INFO ] 21-03-2024 12:01:12 [main] Log - Click://option[contains(text(),'5013001-030')]
+[INFO ] 21-03-2024 12:01:15 [main] Log - SendKeys: 20121.0
+[INFO ] 21-03-2024 12:01:15 [main] Log - SendKeys: TestData3
+[INFO ] 21-03-2024 12:01:17 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 12:01:19 [main] Log - Click: submit1
+[INFO ] 21-03-2024 12:01:21 [main] Log - Click: submit1
+[INFO ] 21-03-2024 12:01:21 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 12:01:22 [main] Log - Click://input[contains(@class,'button_bg awesome')]
