@@ -44,9 +44,9 @@ public class HybridDriven {
 
     String projectPath = System.getProperty("user.dir");
     public void startExecution(String sheetName) {
-        Properties prop = new Properties();
+
         SoftAssert softAssert = new SoftAssert();
-        PropertiesFile .setPropertiesFile();
+
         FileInputStream file = null;
         try {
             //đường dẫn đọc file excel từ file config với key là pathExcel
