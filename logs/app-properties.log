@@ -927,3 +927,9 @@
 [INFO ] 20-03-2024 13:00:45 [main] Log - SendKeys: 
 [INFO ] 20-03-2024 13:00:45 [main] Log - Click://button[contains(.,'Đăng nhập')]
 [INFO ] 20-03-2024 13:00:47 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 21-03-2024 11:53:00 [main] Log - Run Testcase
+[INFO ] 21-03-2024 11:53:03 [main] Log - SendKeys: 5013001_checker1
+[INFO ] 21-03-2024 11:53:03 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 11:53:03 [main] Log - SendKeys: 
+[INFO ] 21-03-2024 11:53:03 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 11:53:05 [main] Log - Actual Text: Vui lòng nhập mã xác thực

@@ -36,7 +36,7 @@ public class HybridExecuteTest extends Base{
     Properties prop = new Properties();
     WebDriver driver ;
     @BeforeMethod
-    public void setutp(){
+    public void setup(){
         PropertiesFile .setPropertiesFile();
         Properties prop = new Properties();
         driver= init_driver(PropertiesFile.getPropValue("browser"));
