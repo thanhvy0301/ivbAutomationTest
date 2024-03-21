@@ -27,4 +27,17 @@ public class Base {
             }
             return driver;
         }
+        public Properties init_properties(){
+            prop = new Properties();
+            try {
+                String projectPath = System.getProperty("user.dir");
+                FileInputStream ip = new FileInputStream(projectPath+"\\src\\main\\resources\\config.properties");
+                prop.load(ip);
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return prop;
+        }
     }

@@ -165,6 +165,7 @@ public class HybridDriven {
                             Log.info("SendKeys:" +data1);
                         } else if (action.equalsIgnoreCase("click")) {
                             //cFunc.waitVisible(element);
+                            Thread.sleep(2000);
                             element.click();
                             Thread.sleep(2000);
                             Log.info("Click:" +locatorValue);
@@ -177,8 +178,8 @@ public class HybridDriven {
                             System.out.println("text from element : " + elementText);
                         }
                         else if (action.equalsIgnoreCase("verifyText")) {
-                            String actualText = driver.findElement(By.xpath(locatorValue)).getText(); //Khởi tạo biến chứa text get từ locatorValue
-                            softAssert.assertEquals(actualText, verify); //So sánh actual text với expected text (verify: text mong muốn được nhập từ excel)
+                            String actualText = driver.findElement(By.xpath(locatorValue)).getText();
+                            softAssert.assertEquals(actualText, verify);
                             Log.info("Actual Text: "+actualText);
                         }
                         locatorType = null;
@@ -237,7 +238,7 @@ public class HybridDriven {
             }
            // softAssert.assertAll();
         }
-        softAssert.assertAll();// Sau khi thực thi toàn bộ testcase thì sẽ hiển thị tất cả các assert fail
+        softAssert.assertAll();// Sau khi thực thi toàn bộ testcase thì sẽ hiển thị too
 
     }
 }

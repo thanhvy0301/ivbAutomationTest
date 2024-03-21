@@ -15,15 +15,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import seatech.common.baseBrowser.Base;
 import seatech.common.config.PropertiesFile;
-import seatech.common.functions.AllureListeners;
-import seatech.common.functions.CaptureHelpers;
 import seatech.common.functions.CommonFunctions;
 import seatech.uiTest.util.HybridDriven;
 import seatech.uiTest.util.Log;
-import seatech.uiTest.util.ReadExcelFile;
 
 import java.io.File;
 import java.sql.DriverManager;

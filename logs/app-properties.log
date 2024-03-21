@@ -1897,3 +1897,6 @@
 [INFO ] 21-03-2024 11:10:06 [main] Log - SendKeys: 
 [INFO ] 21-03-2024 11:10:10 [main] Log - Click://button[contains(.,'Đăng nhập')]
 [INFO ] 21-03-2024 11:10:10 [main] Log - Actual Text: Vui lòng nhập mã xác thực
+[INFO ] 21-03-2024 11:39:02 [main] Log - Run TC-1
+[INFO ] 21-03-2024 11:41:49 [main] Log - Run TC-2
+[INFO ] 21-03-2024 11:44:27 [main] Log - Run TC-1
