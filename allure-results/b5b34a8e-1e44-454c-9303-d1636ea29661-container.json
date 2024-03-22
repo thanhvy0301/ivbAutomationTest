@@ -1,1 +1,0 @@
-{"uuid":"b5b34a8e-1e44-454c-9303-d1636ea29661","name":"automation-test-master","children":["6edf8bc4-2a30-4be6-b787-e61d291b870f"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1711012609372,"stop":1711012614802}],"afters":[],"start":1711012609355,"stop":1711012618828}
