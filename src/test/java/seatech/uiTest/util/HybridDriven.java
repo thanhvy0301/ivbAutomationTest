@@ -95,12 +95,17 @@ public class HybridDriven {
                     case "id":
                         element = driver.findElement(By.id(locatorValue));
                         if (action.equalsIgnoreCase("sendkeys")) {
-                            element.clear();
-                            element.sendKeys(data1);
-                            Log.info("SendKeys: "+data1);
+                            if(locatorValue!=null){
+                                element.clear();
+                                element.sendKeys(data1);
+                                Log.info("SendKeys: "+data1);
+                            }else {
+                                break;
+                            }
                         } else if (action.equalsIgnoreCase("click")) {
                             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(locatorValue)));
                             element.click();
+                            Thread.sleep(2000);
                             Log.info("Click: "+ locatorValue);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
                             element.isDisplayed();
@@ -110,20 +115,24 @@ public class HybridDriven {
                             String elementText = element.getText();
                             System.out.println("text from element : " + elementText);
                         } else if (action.equalsIgnoreCase("switchTo")) {
-                            wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(locatorValue));
+//                            wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id(locatorValue)));
+                            Thread.sleep(1000);
                             driver.switchTo().frame(driver.findElement(By.id(locatorValue)));
                             Log.info("Switch to: "+locatorValue);
                         }
                         else if (action.equalsIgnoreCase("switchToDefault")) {
                             driver.switchTo().defaultContent();
+                            Thread.sleep(1000);
                             Log.info("Switch to default: "+locatorValue);
                         }
                         else if (action.equalsIgnoreCase("select")) {
                             // Khởi tạo đối tượng Select
                             Select selectDropdown = new Select(element);
-                            if(!data1.equals("NA")){
+                            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id(locatorValue)));
+                            if(data1!=null){
                                 Log.info("Select box: "+locatorValue);
                                 selectDropdown.selectByValue(data1);
+                                Thread.sleep(2000);
                                 Log.info("Select option: "+data1);
                             }
                             else {
@@ -157,14 +166,18 @@ public class HybridDriven {
                         element = driver.findElement(By.xpath(locatorValue));
                         //Select selectElement  = new Select(element);
                         if (action.equalsIgnoreCase("sendkeys")) {
-                            element.clear();
-                            element.sendKeys(data1);
-                            Log.info("SendKeys:" +data1);
+                            if(!data1.equals("NA")){
+                                element.clear();
+                                element.sendKeys(data1);
+                                Log.info("SendKeys:" +data1);
+                            }else {
+                                break;
+                            }
                         } else if (action.equalsIgnoreCase("click")) {
                             wait.until(ExpectedConditions.elementToBeClickable(By.xpath(locatorValue)));
                             element.click();
+                            Thread.sleep(2000);
                             Log.info("Click:" +locatorValue);
-
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
                             try{
                                 WebElement visibleElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locatorValue)));
@@ -187,6 +200,7 @@ public class HybridDriven {
                             Select selectDropdown = new Select(element);
                             Log.info("Select box: "+locatorValue);
                             selectDropdown.selectByValue(data1);
+                            Thread.sleep(2000);
                             Log.info("Select option: "+data1);
                         }
                         else if (action.equalsIgnoreCase("verifyNull")) {
@@ -231,6 +245,7 @@ public class HybridDriven {
                             Select selectDropdown = new Select(element);
                             Log.info("Select box: "+locatorValue);
                             selectDropdown.selectByValue(data1);
+                            Thread.sleep(2000);
                             Log.info("Select option: "+data1);
                         }
                         else if (action.equalsIgnoreCase("verifyNull")) {

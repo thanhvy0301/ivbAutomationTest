@@ -38,13 +38,26 @@ public class HybridExecuteTest extends Base{
         Properties prop = new Properties();
         driver= init_driver(PropertiesFile.getPropValue("browser")); //driver nào sẽ được sử dụng khi được lấy trong file config.properties với key là: browser
     }
-    @Step("Data_2")
+    @Test( testName = "TC-1", priority = 1)
+    @Feature("Chuyển khoản trong hệ thống")
+    public void ckTrong_VND() throws InterruptedException {
+        Log.info("Run TC-1");
+        HybridDriven hybridDriven= new HybridDriven(driver);
+        hybridDriven.startExecution("ck_trong(VND)");
+    }
     @Test( testName = "TC-2", priority = 2)
     @Feature("Chuyển khoản trong hệ thống")
-    public void InternalTrans_1() throws InterruptedException {
+    public void ckTrong_VND_USD() throws InterruptedException {
         Log.info("Run TC-2");
         HybridDriven hybridDriven= new HybridDriven(driver);
-        hybridDriven.startExecution("ck trong(VND)");
+        hybridDriven.startExecution("ck_trong(VND_USD)");
+    }
+    @Test( testName = "TC-3", priority = 3)
+    @Feature("Chuyển khoản trong hệ thống")
+    public void ckTrong_USD_USD() throws InterruptedException {
+        Log.info("Run TC-3");
+        HybridDriven hybridDriven= new HybridDriven(driver);
+        hybridDriven.startExecution("ck_trong(USD_USD)");
     }
     @AfterMethod //Hàm takeScreenshot sẽ được thực thi sau khi mỗi tc kết thúc (Với điều kiện testcase đó Fail)
     public void takeScreenshot(ITestResult result) {
