@@ -20,7 +20,6 @@ import java.util.Properties;
 public class AllureListeners implements ITestListener {
         static Base base;
         static Properties prop;
-        CaptureHelpers captureHelpers;
     WebDriver driver;
         @Override
         public void onFinish(ITestContext arg0) {

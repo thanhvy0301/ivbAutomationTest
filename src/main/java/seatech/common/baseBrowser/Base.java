@@ -11,19 +11,22 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class Base {
 
         public WebDriver driver;
         public Properties prop;
+        //Hàm lựa chọn driver để run theo key browser trong file config
         public WebDriver init_driver(String browserName){
             if(browserName.equals("chrome")){//
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
+                driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             } else if(browserName.equals("firefox")){
-//                System.setProperty("webdriver.gecko.driver", "/Users/NaveenKhunteta/Downloads/geckodriver");
                 driver = new FirefoxDriver();
                 driver.manage().window().maximize();
+                driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             }
             return driver;
         }

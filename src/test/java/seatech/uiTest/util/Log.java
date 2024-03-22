@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Log {
+    //File log dùng để ghi lại các hành động khi thực thi code
     //Initialize Log4j instance
     private static final Logger Log =  LogManager.getLogger(Log.class);
 
