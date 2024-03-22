@@ -1905,3 +1905,2173 @@
 [INFO ] 21-03-2024 12:03:09 [main] Log - SendKeys: 5013001_checker1
 [INFO ] 21-03-2024 12:03:09 [main] Log - SendKeys: 111111
 [INFO ] 21-03-2024 12:03:09 [main] Log - SendKeys: 
+[INFO ] 21-03-2024 13:22:59 [main] Log - Run TC-2
+[INFO ] 21-03-2024 13:23:03 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 13:23:03 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 13:23:03 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 13:23:09 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 13:23:11 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 13:23:15 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 13:23:15 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 13:23:19 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 13:23:23 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 13:23:23 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 13:23:24 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 13:23:24 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 13:23:24 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 13:23:24 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 13:23:24 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 13:23:26 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 13:23:28 [main] Log - Click: submit1
+[INFO ] 21-03-2024 13:23:30 [main] Log - Click: submit1
+[INFO ] 21-03-2024 13:32:26 [main] Log - Run TC-2
+[INFO ] 21-03-2024 13:32:29 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 13:32:29 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 13:32:31 [main] Log - Click: vcode
+[INFO ] 21-03-2024 13:32:31 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 13:33:01 [main] Log - Run TC-2
+[INFO ] 21-03-2024 13:33:05 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 13:33:05 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 13:33:07 [main] Log - Click: vcode
+[INFO ] 21-03-2024 13:33:07 [main] Log - Actual Text: ĐĂNG NHẬP
+[INFO ] 21-03-2024 13:33:07 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 13:34:01 [main] Log - Run TC-2
+[INFO ] 21-03-2024 13:34:03 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 13:34:03 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 13:34:05 [main] Log - Click: vcode
+[INFO ] 21-03-2024 13:34:09 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 13:34:09 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 13:34:43 [main] Log - Run TC-2
+[INFO ] 21-03-2024 13:34:46 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 13:34:46 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 13:34:46 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 13:34:51 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 13:34:51 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 13:34:56 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 13:34:58 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 13:35:02 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 13:35:02 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 13:35:06 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 13:35:11 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 13:35:11 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 13:35:11 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 13:35:11 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 13:35:11 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 13:35:11 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 13:35:11 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 13:35:13 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 13:35:15 [main] Log - Click: submit1
+[INFO ] 21-03-2024 13:35:17 [main] Log - Click: submit1
+[INFO ] 21-03-2024 13:38:00 [main] Log - Run TC-2
+[INFO ] 21-03-2024 13:38:04 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 13:38:04 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 13:38:04 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 13:38:09 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 13:38:09 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 13:38:14 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 13:38:16 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 13:38:20 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 13:38:20 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 13:38:24 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 13:38:28 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 13:38:28 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 13:38:29 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 13:38:29 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 13:38:29 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 13:38:29 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 13:38:29 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 13:38:31 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 13:38:33 [main] Log - Click: submit1
+[INFO ] 21-03-2024 13:38:35 [main] Log - Click: submit1
+[INFO ] 21-03-2024 13:40:09 [main] Log - Run TC-2
+[INFO ] 21-03-2024 13:40:12 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 13:40:12 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 13:40:12 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 13:40:17 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 13:40:17 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 13:40:22 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 13:40:24 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 13:40:28 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 13:40:28 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 13:40:32 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 13:40:36 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 13:40:36 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 13:40:37 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 13:40:37 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 13:40:37 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 13:40:37 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 13:40:37 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 13:40:39 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 13:40:41 [main] Log - Click: submit1
+[INFO ] 21-03-2024 13:47:11 [main] Log - Run TC-2
+[INFO ] 21-03-2024 13:47:13 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 13:47:13 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 13:47:13 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 13:47:18 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 13:47:19 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 13:47:24 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 13:47:26 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 13:47:30 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 13:47:30 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 13:47:34 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 13:47:38 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 13:47:38 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 13:47:38 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 13:47:38 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 13:47:38 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 13:47:39 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 13:47:39 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 13:47:41 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 13:47:43 [main] Log - Click: submit1
+[INFO ] 21-03-2024 13:48:47 [main] Log - Run TC-2
+[INFO ] 21-03-2024 13:48:50 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 13:48:50 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 13:48:50 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 13:48:55 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 13:48:55 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 13:49:00 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 13:49:02 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 13:49:06 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 13:49:06 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 13:49:10 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 13:49:14 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 13:49:15 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 13:49:15 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 13:49:15 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 13:49:15 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 13:49:15 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 13:49:15 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 13:49:17 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 13:49:19 [main] Log - Click: submit1
+[INFO ] 21-03-2024 13:49:19 [main] Log - Actual Text: Vui lòng nhập chính xác số tiền
+[INFO ] 21-03-2024 14:12:49 [main] Log - Run TC-2
+[INFO ] 21-03-2024 14:12:51 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 14:12:51 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 14:12:51 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 14:12:56 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 14:12:56 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 14:13:01 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 14:13:03 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 14:13:07 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 14:13:07 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 14:13:11 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 14:13:15 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 14:13:15 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 14:13:15 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 14:13:15 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 14:13:15 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 14:13:16 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 14:13:16 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 14:13:18 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 14:13:20 [main] Log - Click: submit1
+[INFO ] 21-03-2024 14:13:20 [main] Log - Actual Text: Vui lòng nhập chính xác số tiền
+[INFO ] 21-03-2024 14:13:45 [main] Log - Run TC-2
+[INFO ] 21-03-2024 14:13:47 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 14:13:47 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 14:13:47 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 14:13:52 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 14:13:52 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 14:13:57 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 14:13:59 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 14:14:03 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 14:14:03 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 14:14:07 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 14:14:11 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 14:14:11 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 14:14:12 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 14:14:12 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 14:14:12 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 14:14:12 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 14:14:12 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 14:14:14 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 14:14:16 [main] Log - Click: submit1
+[INFO ] 21-03-2024 14:14:16 [main] Log - Actual Text: Vui lòng nhập chính xác số tiền
+[INFO ] 21-03-2024 14:18:16 [main] Log - Run TC-2
+[INFO ] 21-03-2024 14:18:19 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 14:18:19 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 14:18:19 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 14:18:25 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 14:18:25 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 14:18:30 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 14:18:32 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 14:18:36 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 14:18:36 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 14:18:40 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 14:18:45 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 14:18:45 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 14:18:45 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 14:18:45 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 14:18:45 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 14:18:45 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 14:18:45 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 14:18:47 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 14:18:49 [main] Log - Click: submit1
+[INFO ] 21-03-2024 14:18:49 [main] Log - Actual Text: Vui lòng nhập chính xác số tiền
+[INFO ] 21-03-2024 14:57:34 [main] Log - Run TC-2
+[INFO ] 21-03-2024 14:57:37 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 14:57:37 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 14:57:37 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 14:57:42 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 14:57:42 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 14:57:47 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 14:57:49 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 14:57:53 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 14:57:53 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 14:57:57 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 14:58:01 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 14:58:01 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 14:58:02 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 14:58:02 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 14:58:02 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 14:58:02 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 14:58:02 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 14:58:04 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 14:58:06 [main] Log - Click: submit1
+[INFO ] 21-03-2024 15:02:50 [main] Log - Run TC-2
+[INFO ] 21-03-2024 15:02:54 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 15:02:54 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 15:02:54 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 15:03:00 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 15:03:00 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 15:03:05 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 15:03:07 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 15:03:11 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 15:03:11 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 15:03:15 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 15:03:19 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 15:03:20 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 15:03:20 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 15:03:20 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 15:03:20 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 15:03:20 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 15:03:20 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 15:03:22 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 15:03:24 [main] Log - Click: submit1
+[INFO ] 21-03-2024 15:04:56 [main] Log - Run TC-2
+[INFO ] 21-03-2024 15:05:00 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 15:05:00 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 15:05:00 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 15:05:06 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 15:05:06 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 15:05:11 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 15:05:13 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 15:05:17 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 15:05:17 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 15:05:21 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 15:05:25 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 15:05:25 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 15:05:26 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 15:05:26 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 15:05:26 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 15:05:26 [main] Log - SendKeys: 0.0
+[INFO ] 21-03-2024 15:05:26 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 15:05:28 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 15:05:30 [main] Log - Click: submit1
+[INFO ] 21-03-2024 16:09:46 [main] Log - Run TC-2
+[INFO ] 21-03-2024 16:09:48 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 16:09:48 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 16:09:48 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 16:09:53 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 16:09:53 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 16:09:58 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 16:10:00 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 16:10:04 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 16:10:04 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 16:10:08 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 16:10:12 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 16:10:12 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 16:10:12 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 16:10:12 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 16:10:12 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 16:10:14 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 16:10:16 [main] Log - Click: submit1
+[INFO ] 21-03-2024 16:13:37 [main] Log - Run TC-2
+[INFO ] 21-03-2024 16:13:40 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 16:13:40 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 16:13:40 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 16:13:45 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 16:13:45 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 16:13:51 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 16:13:53 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 16:13:57 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 16:13:57 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 16:14:01 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 16:14:05 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 16:14:05 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 16:14:05 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 16:14:05 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 16:14:07 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 16:14:09 [main] Log - Click: submit1
+[INFO ] 21-03-2024 16:16:06 [main] Log - Run TC-2
+[INFO ] 21-03-2024 16:16:08 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 16:16:08 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 16:16:09 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 16:16:13 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 16:16:13 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 16:16:18 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 16:16:20 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 16:16:25 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 16:16:25 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 16:16:29 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 16:16:33 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 16:16:33 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 16:16:33 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 16:16:33 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 16:16:35 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 16:16:37 [main] Log - Click: submit1
+[INFO ] 21-03-2024 16:21:38 [main] Log - Run TC-2
+[INFO ] 21-03-2024 16:21:40 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 16:21:40 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 16:21:40 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 16:21:45 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 16:21:45 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 16:21:50 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 16:21:52 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 16:21:56 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 16:21:56 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 16:22:00 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 16:22:04 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 16:22:04 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 16:22:05 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 16:22:05 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 16:22:05 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 16:22:05 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 16:22:05 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 16:22:07 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 16:22:09 [main] Log - Click: submit1
+[INFO ] 21-03-2024 16:23:00 [main] Log - Run TC-2
+[INFO ] 21-03-2024 16:23:02 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 16:23:02 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 16:23:02 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 16:23:07 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 16:23:07 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 16:23:13 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 16:23:15 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 16:23:19 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 16:23:19 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 16:23:23 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 16:23:27 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 16:23:27 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 16:23:27 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 16:23:27 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 16:23:27 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 16:23:29 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 16:23:31 [main] Log - Click: submit1
+[INFO ] 21-03-2024 16:32:57 [main] Log - Run TC-2
+[INFO ] 21-03-2024 16:33:00 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 16:33:00 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 16:33:00 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 16:33:05 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 16:33:05 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 16:33:10 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 16:33:12 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 16:33:16 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 16:33:16 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 16:33:20 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 16:33:24 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 16:33:24 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 16:33:25 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 16:33:25 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 16:33:25 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 16:33:25 [main] Log - SendKeys: 100000
+[INFO ] 21-03-2024 16:33:25 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 16:33:27 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 16:33:30 [main] Log - Click: submit1
+[INFO ] 21-03-2024 16:33:32 [main] Log - Click: submit1
+[INFO ] 21-03-2024 16:33:32 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 16:33:37 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 16:33:41 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 16:33:41 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 16:33:45 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 16:33:49 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 16:33:49 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 16:33:49 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 16:33:50 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 16:33:50 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 16:33:50 [main] Log - SendKeys: 100000
+[INFO ] 21-03-2024 16:33:50 [main] Log - SendKeys: CHUYỂN KHOAN TRONG HỆ THỐNG 123
+[INFO ] 21-03-2024 16:33:52 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 16:33:54 [main] Log - Click: submit1
+[INFO ] 21-03-2024 16:33:57 [main] Log - Click: submit1
+[INFO ] 21-03-2024 16:33:57 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 16:34:01 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 16:34:05 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 16:34:05 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 16:34:09 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 16:34:13 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 16:34:13 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 16:34:14 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 16:34:14 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 16:34:16 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 16:34:18 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:15:19 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:15:23 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:15:23 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:15:23 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:15:29 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:15:29 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 17:15:34 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:15:36 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:15:40 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:15:40 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:15:44 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:15:48 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:15:48 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:15:49 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:15:49 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:15:49 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:15:49 [main] Log - SendKeys: 100000
+[INFO ] 21-03-2024 17:15:49 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:15:51 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:15:53 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:15:56 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:15:56 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 17:16:01 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 17:16:05 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:16:05 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:16:09 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:16:13 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:16:13 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:16:13 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:16:13 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:16:13 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:16:14 [main] Log - SendKeys: 100000
+[INFO ] 21-03-2024 17:16:14 [main] Log - SendKeys: CHUYỂN KHOAN TRONG HỆ THỐNG 123
+[INFO ] 21-03-2024 17:16:16 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:16:18 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:16:20 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:16:20 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 17:16:25 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 17:16:29 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:16:29 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:16:33 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:16:38 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:16:38 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:16:38 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:16:38 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:16:40 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:16:42 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:17:31 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:17:34 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:17:34 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:17:34 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:17:40 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:17:40 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 17:17:45 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:17:47 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:17:51 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:17:51 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:17:55 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:17:59 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:17:59 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:18:00 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:18:00 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:18:00 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:18:00 [main] Log - SendKeys: 100000
+[INFO ] 21-03-2024 17:18:00 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:18:02 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:18:04 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:18:07 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:18:07 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 17:18:12 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 17:18:16 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:18:16 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:18:20 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:18:24 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:18:24 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:18:24 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:18:24 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:18:24 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:18:25 [main] Log - SendKeys: 100000
+[INFO ] 21-03-2024 17:18:25 [main] Log - SendKeys: CHUYỂN KHOAN TRONG HỆ THỐNG 123
+[INFO ] 21-03-2024 17:18:27 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:18:29 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:18:31 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:18:31 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 17:18:36 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 17:18:40 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:18:40 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:18:44 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:18:48 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:18:48 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:18:48 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:18:48 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:18:50 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:18:52 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:18:55 [main] Log - Click: reset1
+[INFO ] 21-03-2024 17:18:55 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:18:55 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:18:55 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:18:55 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:18:55 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:18:55 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:18:57 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:18:59 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:24:14 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:24:17 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:24:17 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:24:17 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:24:22 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:24:22 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 17:24:27 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:24:29 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:24:33 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:24:33 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:24:37 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:24:41 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:24:41 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:24:42 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:24:42 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:24:42 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:24:42 [main] Log - SendKeys: 100000
+[INFO ] 21-03-2024 17:24:42 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:24:44 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:24:46 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:24:49 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:24:49 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 17:24:54 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 17:24:58 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:24:58 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:25:02 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:25:06 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:25:06 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:25:06 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:25:06 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:25:06 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:25:07 [main] Log - SendKeys: 100000
+[INFO ] 21-03-2024 17:25:07 [main] Log - SendKeys: CHUYỂN KHOAN TRONG HỆ THỐNG 123
+[INFO ] 21-03-2024 17:25:09 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:25:11 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:25:13 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:25:13 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 21-03-2024 17:25:18 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 21-03-2024 17:25:49 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:25:52 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:25:52 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:25:52 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:25:57 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:25:57 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 17:26:02 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:26:04 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:26:08 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:26:08 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:26:12 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:26:16 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:26:16 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:26:17 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:26:17 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:26:19 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:26:21 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:26:23 [main] Log - Click: reset1
+[INFO ] 21-03-2024 17:26:23 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:26:23 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:26:23 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:26:23 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:26:23 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:26:23 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:26:26 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:26:28 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:29:40 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:29:44 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:29:44 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:29:44 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:29:49 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:29:49 [main] Log - Display: //span[contains(text(),'Xin lỗi')]
+[INFO ] 21-03-2024 17:29:54 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:29:56 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:30:00 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:30:01 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:30:05 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:30:09 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:30:09 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:30:09 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:30:09 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:30:11 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:30:13 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:30:15 [main] Log - Click: reset1
+[INFO ] 21-03-2024 17:30:15 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:30:15 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:30:15 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:30:15 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:30:16 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:30:16 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:30:18 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:30:20 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:34:36 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:34:39 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:34:39 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:34:39 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:34:43 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:34:54 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:34:56 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:35:00 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:35:00 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:35:04 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:35:08 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:35:08 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:35:08 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:35:08 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:35:10 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:35:12 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:35:15 [main] Log - Click: reset1
+[INFO ] 21-03-2024 17:35:15 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:35:15 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:35:15 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:35:15 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:35:15 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:35:15 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:35:17 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:35:19 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:36:19 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:36:23 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:36:23 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:36:23 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:36:27 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:36:38 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:36:40 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:36:44 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:36:44 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:36:48 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:36:52 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:36:52 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:36:52 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:36:52 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:36:54 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:36:56 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:36:58 [main] Log - Click: reset1
+[INFO ] 21-03-2024 17:36:58 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:36:59 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:36:59 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:36:59 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:36:59 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:36:59 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:37:01 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:37:03 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:40:19 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:40:22 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:40:22 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:40:22 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:40:27 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:40:38 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:40:40 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:40:44 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:40:44 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:40:48 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:40:52 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:40:53 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:40:53 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:40:53 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:40:53 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:40:53 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:40:53 [main] Log - Click: reset1
+[INFO ] 21-03-2024 17:40:53 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:40:53 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:40:53 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:40:53 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:40:54 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:40:54 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:40:54 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:40:54 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:41:48 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:41:52 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:41:52 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:41:52 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:41:57 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:42:08 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:42:10 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:42:14 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:42:14 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:42:18 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:42:22 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:42:22 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:42:22 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:42:22 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:42:22 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:42:22 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:42:23 [main] Log - Click: reset1
+[INFO ] 21-03-2024 17:42:23 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:42:23 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:42:23 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:42:23 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:42:23 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:42:23 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:42:23 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:42:23 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:44:04 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:44:08 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:44:08 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:44:08 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:44:13 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:44:24 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:44:26 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:44:30 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:44:30 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:44:34 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:44:38 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:44:38 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:44:39 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:44:39 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:44:39 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:44:39 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:44:39 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:44:39 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:44:40 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:46:20 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:46:23 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:46:23 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:46:23 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:46:28 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:46:39 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:46:41 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:46:45 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:46:45 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:46:49 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:46:53 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:46:53 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:46:54 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:46:54 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:46:54 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:46:54 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:46:54 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:46:56 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:46:59 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:48:48 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:48:51 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:48:51 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:48:51 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:48:56 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:49:07 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:49:09 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:49:13 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:49:13 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:49:17 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:49:21 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:49:21 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:49:21 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:49:21 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:49:23 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:49:25 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:49:27 [main] Log - Click: reset1
+[INFO ] 21-03-2024 17:49:27 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:49:28 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:49:28 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:49:28 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:49:28 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:49:28 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:49:30 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:49:32 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:52:08 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:52:11 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:52:11 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:52:11 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:52:16 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:52:27 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:52:29 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:52:33 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:52:33 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:52:37 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:52:41 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:52:41 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:52:41 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:52:41 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:52:43 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:52:45 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:52:47 [main] Log - Click: reset1
+[INFO ] 21-03-2024 17:52:47 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:52:48 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:52:48 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:52:48 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:52:48 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:52:48 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:52:50 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:52:52 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:54:03 [main] Log - Run TC-2
+[INFO ] 21-03-2024 17:54:07 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 21-03-2024 17:54:07 [main] Log - SendKeys: 111111
+[INFO ] 21-03-2024 17:54:07 [main] Log - SendKeys: 12345.0
+[INFO ] 21-03-2024 17:54:12 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 21-03-2024 17:54:23 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 21-03-2024 17:54:25 [main] Log - Switch to: infoFrame
+[INFO ] 21-03-2024 17:54:29 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 21-03-2024 17:54:29 [main] Log - Switch to default: NA
+[INFO ] 21-03-2024 17:54:33 [main] Log - Switch to: tranFrame
+[INFO ] 21-03-2024 17:54:37 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 21-03-2024 17:54:37 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:54:37 [main] Log - SendKeys: 100000.0
+[INFO ] 21-03-2024 17:54:37 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 21-03-2024 17:54:39 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:54:41 [main] Log - Click: submit1
+[INFO ] 21-03-2024 17:54:44 [main] Log - Click: reset1
+[INFO ] 21-03-2024 17:54:44 [main] Log - Select box: selectAccountNo
+[INFO ] 21-03-2024 17:54:44 [main] Log - Select option: 1001470-002
+[INFO ] 21-03-2024 17:54:44 [main] Log - Select box: receiveAccount
+[INFO ] 21-03-2024 17:54:44 [main] Log - Select option: 1001470-001
+[INFO ] 21-03-2024 17:54:44 [main] Log - SendKeys: 8000000000
+[INFO ] 21-03-2024 17:54:44 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 21-03-2024 17:54:46 [main] Log - Click: chkApp1
+[INFO ] 21-03-2024 17:54:48 [main] Log - Click: submit1
+[INFO ] 22-03-2024 09:24:24 [main] Log - Run TC-2
+[INFO ] 22-03-2024 09:24:26 [main] Log - SendKeys: 1001470_maker1
+[INFO ] 22-03-2024 09:24:26 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 09:24:26 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 09:24:31 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 09:24:31 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 09:26:37 [main] Log - Run TC-2
+[INFO ] 22-03-2024 09:26:39 [main] Log - SendKeys: 1001470_maker1
+[INFO ] 22-03-2024 09:26:39 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 09:26:39 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 09:26:44 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 09:26:44 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 09:30:27 [main] Log - Run TC-2
+[INFO ] 22-03-2024 09:30:29 [main] Log - SendKeys: 1001470_maker1
+[INFO ] 22-03-2024 09:30:29 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 09:30:29 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 09:30:33 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 09:30:39 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 09:30:39 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 09:30:43 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 09:33:04 [main] Log - Run TC-2
+[INFO ] 22-03-2024 09:33:06 [main] Log - SendKeys: 1001470_maker1
+[INFO ] 22-03-2024 09:33:06 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 09:33:07 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 09:33:11 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 09:33:16 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 09:33:18 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 09:33:18 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 09:33:23 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 09:34:10 [main] Log - Run TC-2
+[INFO ] 22-03-2024 09:34:12 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 09:34:12 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 09:34:12 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 09:34:18 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 09:34:20 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 09:34:24 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 09:34:24 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 09:34:28 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 09:34:32 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 09:34:32 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 09:34:32 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 09:34:32 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 09:34:33 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 09:34:33 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 09:34:33 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 09:34:35 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 09:34:38 [main] Log - Click: submit1
+[INFO ] 22-03-2024 09:36:06 [main] Log - Run TC-2
+[INFO ] 22-03-2024 09:36:08 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 09:36:08 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 09:36:08 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 09:36:13 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 09:36:18 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 09:36:20 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 09:36:24 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 09:36:24 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 09:36:28 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 09:36:32 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 09:36:33 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 09:36:33 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 09:36:33 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 09:36:33 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 09:36:33 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 09:36:33 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 09:36:35 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 09:36:38 [main] Log - Click: submit1
+[INFO ] 22-03-2024 09:43:15 [main] Log - Run TC-2
+[INFO ] 22-03-2024 09:43:17 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 09:43:17 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 09:43:17 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 09:43:22 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 09:43:27 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 09:43:29 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 09:43:33 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 09:43:33 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 09:43:37 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 09:43:41 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 09:43:41 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 09:43:42 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 09:43:42 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 09:43:42 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 09:43:43 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 09:43:43 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 09:43:45 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 09:43:49 [main] Log - Click: submit1
+[INFO ] 22-03-2024 09:44:46 [main] Log - Run TC-2
+[INFO ] 22-03-2024 09:44:48 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 09:44:48 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 09:44:48 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 09:44:53 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 09:44:58 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 09:45:00 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 09:45:04 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 09:45:05 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 09:45:09 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 09:45:13 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 09:45:13 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 09:45:14 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 09:45:14 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 09:45:14 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 09:45:15 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 09:45:15 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 09:45:17 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 09:45:22 [main] Log - Click: submit1
+[INFO ] 22-03-2024 09:48:56 [main] Log - Run TC-2
+[INFO ] 22-03-2024 09:48:59 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 09:48:59 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 09:48:59 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 09:49:04 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 09:49:11 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 09:49:13 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 09:49:17 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 09:49:17 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 09:49:21 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 09:49:25 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 09:49:25 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 09:49:27 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 09:49:27 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 09:49:27 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 09:49:29 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 09:49:29 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 09:49:31 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 09:49:37 [main] Log - Click: submit1
+[INFO ] 22-03-2024 09:50:45 [main] Log - Run TC-2
+[INFO ] 22-03-2024 09:50:48 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 09:50:48 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 09:50:48 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 09:50:53 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 09:51:00 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 09:51:02 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 09:51:06 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 09:51:06 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 09:51:10 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 09:51:14 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 09:51:14 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 09:51:17 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 09:51:17 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 09:51:17 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 09:51:19 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 09:51:19 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 09:51:21 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 09:51:30 [main] Log - Click: submit1
+[INFO ] 22-03-2024 09:51:35 [main] Log - Display: //font[@class='nextrow'][contains(.,'Số dư trên tài khoản không đủ thực hiện giao dịch')]
+[INFO ] 22-03-2024 10:02:04 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:02:07 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:02:07 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:02:07 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:02:12 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:02:20 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:02:22 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:02:26 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:02:26 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:02:30 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:02:34 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:02:34 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:02:38 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:02:38 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:02:39 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:02:40 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 10:02:40 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 10:02:43 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:02:50 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:02:50 [main] Log - Display: [[ChromeDriver: chrome on windows (9699e9422b4fab51e4dead9f44135642)] -> xpath: //font[@class='nextrow'][contains(.,'Số dư trên tài khoản không đủ thực hiện giao dịch')]]
+[INFO ] 22-03-2024 10:04:17 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:04:20 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:04:20 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:04:20 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:04:25 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:04:34 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:04:36 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:04:40 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:04:40 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:04:44 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:04:49 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:04:49 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:04:52 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:04:52 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:04:52 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:04:54 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 10:04:54 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 10:04:56 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:05:05 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:05:05 [main] Log - Display: [[ChromeDriver: chrome on windows (58f5709ec6a3e2d0222236a98c8b6d76)] -> xpath: //tbody/tr[3]/td[2]/font[1]]
+[INFO ] 22-03-2024 10:07:41 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:07:44 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:07:44 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:07:44 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:07:45 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:07:48 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:07:50 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:07:51 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:07:51 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:07:55 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:07:55 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:07:55 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:07:58 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:07:58 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:07:58 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:08:00 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 10:08:00 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 10:08:02 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:08:09 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:08:10 [main] Log - Display: [[ChromeDriver: chrome on windows (57df415c60354732a337e2e2c2a5a48f)] -> xpath: //tbody/tr[3]/td[2]/font[1]]
+[INFO ] 22-03-2024 10:16:07 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:16:10 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:16:10 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:16:10 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:16:11 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:16:13 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:16:15 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:16:15 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:16:15 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:16:19 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:16:19 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:16:19 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:16:22 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:16:22 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:16:22 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:16:23 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:16:24 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 10:16:26 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:16:30 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:16:34 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:16:35 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 10:16:39 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 10:16:39 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:16:39 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:16:41 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:16:41 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:16:41 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:16:42 [main] Log - SendKeys: 20121.0
+[INFO ] 22-03-2024 10:16:42 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 10:16:44 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:16:48 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:16:53 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:16:53 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 10:16:56 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 10:16:56 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:16:56 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:17:00 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:17:00 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:17:00 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:17:00 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 10:17:00 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 10:17:02 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:17:04 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:17:06 [main] Log - Click: reset1
+[INFO ] 22-03-2024 10:17:06 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:17:09 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:17:09 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:17:09 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:17:10 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 10:17:10 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 10:17:12 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:17:15 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:18:40 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:18:43 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:18:43 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:18:43 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:18:44 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:18:48 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:18:50 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:18:50 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:18:50 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:18:54 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:18:54 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:18:54 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:18:57 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:18:57 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:18:57 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:18:58 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:18:58 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 10:19:00 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:19:03 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:19:05 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:19:05 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 10:19:07 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 10:19:07 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:19:07 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:19:11 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:19:11 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:19:11 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:19:13 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:19:13 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:19:13 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:19:14 [main] Log - SendKeys: 20121.0
+[INFO ] 22-03-2024 10:19:14 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 10:19:16 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:19:19 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:19:22 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:19:22 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 10:19:23 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 10:19:23 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:19:23 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:19:27 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:19:27 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:19:27 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:19:27 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 10:19:28 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 10:19:30 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:19:32 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:19:32 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:19:32 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:19:36 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:19:36 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:19:36 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:19:39 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:19:39 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:19:39 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:19:41 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 10:19:41 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 10:19:43 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:19:45 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:21:40 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:21:44 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:21:44 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:21:44 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:21:45 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:21:48 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:21:50 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:21:50 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:21:50 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:21:54 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:21:54 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:21:54 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:21:54 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 10:21:54 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 10:21:56 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:21:58 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:21:58 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:21:58 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:22:03 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:22:03 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:22:03 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:22:04 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:22:04 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:22:05 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:22:05 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 10:22:05 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 10:22:07 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:22:09 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:25:31 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:25:34 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:25:34 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:25:34 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:25:35 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:25:38 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:25:40 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:25:40 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:25:40 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:25:44 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:25:44 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:25:45 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:25:45 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 10:25:45 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 10:25:47 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:25:49 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:25:49 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:25:49 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:25:53 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:25:53 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:25:53 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:25:56 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:25:56 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:25:56 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:25:58 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 10:25:58 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 10:26:00 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:26:02 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:27:49 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:27:52 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:27:52 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:27:52 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:27:53 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:27:56 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:27:58 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:27:58 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:27:58 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:28:02 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:28:02 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:28:02 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:28:05 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:28:05 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:28:05 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:28:07 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:28:07 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 10:28:09 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:28:12 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:28:15 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:28:15 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 10:28:17 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 10:28:17 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:28:17 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:28:21 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:28:21 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:28:21 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:28:25 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:28:25 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:28:25 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:28:26 [main] Log - SendKeys: 20121.0
+[INFO ] 22-03-2024 10:28:26 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 10:28:28 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:28:31 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:28:34 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:28:34 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 10:28:36 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 10:28:36 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:28:36 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:28:40 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:28:40 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:28:40 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:28:44 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:28:44 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:28:44 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:28:45 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 10:28:45 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 10:28:47 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:28:55 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:28:55 [main] Log - Display: [[ChromeDriver: chrome on windows (967d5615aac24019b00efb69f890a08a)] -> xpath: //tbody/tr[3]/td[2]/font[1]]
+[INFO ] 22-03-2024 10:28:55 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:28:55 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:28:59 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:28:59 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:28:59 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:28:59 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 10:28:59 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 10:29:01 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 10:29:03 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:51:06 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:51:08 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:51:08 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:51:08 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:51:09 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:51:11 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:51:13 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:51:13 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:51:13 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:51:28 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:51:28 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:51:28 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:51:28 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 10:51:28 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 10:51:30 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:52:07 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:52:09 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:52:09 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:52:09 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:52:10 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:52:12 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:52:14 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:52:14 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:52:14 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:52:29 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:52:29 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:52:29 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:52:30 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:52:30 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:52:30 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:52:32 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 10:52:32 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 10:52:34 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:56:34 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:56:37 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:56:37 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:56:37 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:56:37 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:56:40 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:56:42 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:56:42 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:56:42 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:56:55 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:56:55 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:56:55 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:56:57 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:56:57 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:56:57 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:56:58 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 10:56:59 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 10:57:01 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:57:51 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:57:54 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:57:54 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:57:54 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:57:55 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:57:57 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 10:57:59 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 10:57:59 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 10:57:59 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 10:58:11 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 10:58:11 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 10:58:11 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 10:58:12 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 10:58:12 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 10:58:12 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 10:58:12 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 10:58:12 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 10:58:14 [main] Log - Click: submit1
+[INFO ] 22-03-2024 10:59:51 [main] Log - Run TC-2
+[INFO ] 22-03-2024 10:59:54 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 10:59:54 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 10:59:54 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 10:59:55 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 10:59:58 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:00:00 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:00:00 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:00:00 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:00:10 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:00:12 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:00:12 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:00:12 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:00:15 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:00:15 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:00:15 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:00:16 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:00:16 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:00:18 [main] Log - Click: submit1
+[ERROR] 22-03-2024 11:00:29 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:01:58 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:02:01 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:02:01 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:02:01 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:02:02 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:02:04 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:02:06 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:02:06 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:02:06 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:02:16 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:02:18 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:02:18 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:02:18 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:02:21 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:02:21 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:02:21 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:02:23 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:02:23 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:02:26 [main] Log - Click: submit1
+[ERROR] 22-03-2024 11:02:36 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:05:49 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:05:52 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:05:52 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:05:52 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:05:54 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:05:57 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:05:59 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:05:59 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:05:59 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:06:09 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:06:11 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:06:11 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:06:11 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:06:13 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:06:13 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:06:13 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:06:14 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:06:14 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:06:17 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:16:58 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:17:01 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:17:01 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:17:02 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:17:03 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:17:06 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:17:08 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:17:08 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:17:08 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:17:18 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:17:20 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:17:20 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:17:20 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:17:23 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:17:23 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:17:23 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:17:24 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:17:25 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:17:28 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:21:32 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:21:35 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:21:35 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:21:35 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:21:36 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:21:39 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:21:41 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:21:41 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:21:41 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:21:51 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:21:53 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:21:53 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:21:53 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:21:56 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:21:56 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:21:56 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:21:58 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:21:58 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:22:01 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:23:54 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:23:57 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:23:57 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:23:57 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:23:59 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:24:01 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:24:03 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:24:04 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:24:04 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:24:14 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:24:16 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:24:16 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:24:16 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:24:18 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:24:18 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:24:18 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:24:19 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:24:20 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:24:23 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:25:28 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:25:31 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:25:31 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:25:31 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:25:34 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:25:37 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:25:39 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:25:41 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:25:41 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:25:52 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:25:54 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:25:56 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:25:56 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:25:59 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:25:59 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:25:59 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:25:59 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:25:59 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:26:02 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:27:53 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:27:56 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:27:56 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:27:56 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:27:59 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:28:03 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:28:05 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:28:07 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:28:07 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:28:17 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:28:19 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:28:21 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:28:21 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:28:23 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:28:23 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:28:23 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:28:25 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:28:25 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:28:28 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:29:51 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:29:53 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:29:53 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:29:54 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:29:54 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:29:57 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:29:59 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:29:59 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:29:59 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:30:09 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:30:11 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:30:11 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:30:11 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:30:13 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:30:13 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:30:13 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:30:13 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:30:13 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:30:16 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:30:16 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:30:26 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:32:33 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:32:36 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:32:36 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:32:36 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:32:37 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:32:39 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:32:41 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:32:41 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:32:41 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:32:43 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:32:43 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:32:43 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:32:43 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:32:43 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:32:43 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:32:44 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:32:44 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:32:47 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:32:47 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:33:36 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:33:39 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:33:39 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:33:39 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:33:40 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:33:41 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:33:43 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:33:43 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:33:43 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:33:45 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:33:45 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:33:45 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:33:47 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:33:47 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:33:47 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:33:48 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:33:48 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:33:51 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:33:51 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:33:51 [main] Log - Click://a[contains(text(),'OK')]
+[INFO ] 22-03-2024 11:36:24 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:36:27 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:36:27 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:36:27 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:36:28 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:36:29 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:36:31 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:36:31 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:36:31 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:36:33 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:36:33 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:36:33 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:36:34 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:36:34 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:36:34 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:36:35 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:36:35 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:36:38 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:36:38 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:36:38 [main] Log - Display: [[ChromeDriver: chrome on windows (eac2fb6d84450cabd39bcd8faf5e9ab9)] -> xpath: /html[1]/body[1]/div[2]/div[1]/div[2]/p[1]]
+[INFO ] 22-03-2024 11:37:19 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:37:22 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:37:22 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:37:22 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:37:23 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:37:26 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:37:28 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:37:28 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:37:28 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:37:30 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:37:30 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:37:30 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:37:32 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:37:32 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:37:32 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:37:33 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:37:33 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:37:36 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:37:36 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:37:36 [main] Log - Display: [[ChromeDriver: chrome on windows (416ae91eb10f017dfb3c0b99a4d2a6ca)] -> xpath: /html[1]/body[1]/div[2]/div[1]]
+[INFO ] 22-03-2024 11:38:10 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:38:13 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:38:13 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:38:13 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:38:14 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:38:16 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:38:18 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:38:18 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:38:18 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:38:20 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:38:20 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:38:20 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:38:21 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:38:21 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:39:13 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:39:15 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:39:15 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:39:15 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:39:16 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:39:18 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:39:20 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:39:20 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:39:20 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:39:22 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:39:22 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:39:22 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:39:25 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:39:25 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:39:25 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:39:27 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:39:27 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:39:30 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:39:30 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:39:30 [main] Log - Display: [[ChromeDriver: chrome on windows (79f7891c81881688c6ee95a5fe852713)] -> xpath: //body[1]/div[2]/div[1]]
+[INFO ] 22-03-2024 11:41:25 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:41:28 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:41:28 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:41:28 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:41:28 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:41:30 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:41:32 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:41:32 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:41:32 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:41:43 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:41:45 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:41:45 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:41:45 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:41:48 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:41:48 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:41:48 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:41:50 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:41:50 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:41:53 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:41:53 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:42:03 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:42:03 [main] Log - Display: [[ChromeDriver: chrome on windows (689b3462f763daa5929b3e547aa76617)] -> xpath: //html[1]/body[1]/div[2]/div[1]]
+[INFO ] 22-03-2024 11:45:26 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:45:29 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:45:29 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:45:29 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:45:30 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:45:33 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:45:35 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:45:35 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:45:35 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:45:46 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:45:48 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:45:48 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:45:48 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:45:50 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:45:51 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:45:51 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:45:52 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:45:52 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:45:55 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:45:55 [main] Log - Switch to default: NA
+[ERROR] 22-03-2024 11:46:06 [main] Log - Alert không xuất hiện sau khi chờ đợi.
+[INFO ] 22-03-2024 11:48:47 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:48:49 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:48:49 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:48:49 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:48:50 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:48:53 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:48:55 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:48:55 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:48:55 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:48:57 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:48:57 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:48:57 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:48:59 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:48:59 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:48:59 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:49:00 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:49:00 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 11:49:03 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:49:07 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:49:11 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:49:11 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 11:49:13 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 11:49:13 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:49:13 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:49:15 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:49:15 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:49:15 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:49:18 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:49:18 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:49:18 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:49:20 [main] Log - SendKeys: 20121.0
+[INFO ] 22-03-2024 11:49:20 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 11:49:23 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:49:26 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:49:30 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:49:30 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 11:49:31 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 11:49:31 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:49:31 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:49:33 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:49:33 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:49:33 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:49:34 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:49:34 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:49:34 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:49:34 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 11:49:34 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 11:49:37 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:49:43 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:49:43 [main] Log - Display: [[ChromeDriver: chrome on windows (6f5784a156a596156f0389bd9076a3b6)] -> xpath: //tbody/tr[3]/td[2]/font[1]]
+[INFO ] 22-03-2024 11:49:43 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:49:43 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:49:45 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:49:45 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:49:45 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:50:15 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:50:15 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:50:18 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:50:21 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:50:21 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:50:22 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:50:24 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:50:24 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:50:24 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:50:26 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:50:26 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:50:26 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:50:28 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:50:28 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:50:32 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:50:32 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:51:33 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:51:36 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:51:36 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:51:36 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:51:37 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:51:39 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:51:41 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:51:41 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:51:41 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:51:43 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:51:43 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:51:43 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:51:45 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:51:45 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:51:45 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:51:46 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:51:46 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 11:51:49 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:51:52 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:51:56 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:51:56 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 11:51:58 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 11:51:58 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:51:58 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:52:00 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:52:00 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:52:00 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:52:03 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:52:03 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:52:04 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:52:05 [main] Log - SendKeys: 20121.0
+[INFO ] 22-03-2024 11:52:05 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 11:52:08 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:52:12 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:52:16 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:52:16 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 11:52:18 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 11:52:18 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:52:18 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:52:20 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:52:20 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:52:20 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:52:23 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:52:23 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:52:23 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:52:24 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 11:52:24 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 11:52:27 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:52:32 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:52:32 [main] Log - Display: [[ChromeDriver: chrome on windows (3ce645cd6a6cd0afef18f6ccb387cd60)] -> xpath: //tbody/tr[3]/td[2]/font[1]]
+[INFO ] 22-03-2024 11:52:32 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:52:32 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:52:34 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:52:34 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:52:34 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:54:54 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:54:57 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:54:57 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:54:57 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:54:58 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:55:00 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:55:02 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:55:02 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:55:02 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:55:04 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:55:04 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:55:04 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:55:05 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:55:05 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:55:05 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:55:05 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:55:05 [main] Log - SendKeys: TestData1
+[INFO ] 22-03-2024 11:55:08 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:55:12 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:55:15 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:55:15 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 11:55:18 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 11:55:18 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:55:18 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:55:20 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:55:20 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:55:20 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:55:23 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:55:23 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:55:23 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:55:24 [main] Log - SendKeys: 20121.0
+[INFO ] 22-03-2024 11:55:24 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 11:55:27 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:55:31 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:55:34 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:55:34 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 11:55:36 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 11:55:36 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:55:36 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:55:38 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:55:38 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:55:38 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:55:39 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:55:39 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:55:39 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:55:39 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 11:55:39 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 11:55:43 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:55:47 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:55:47 [main] Log - Display: [[ChromeDriver: chrome on windows (9920cc11497f75bc0950772e505f6a8e)] -> xpath: //tbody/tr[3]/td[2]/font[1]]
+[INFO ] 22-03-2024 11:55:47 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:55:47 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:55:49 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:55:49 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:55:49 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:56:19 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:56:19 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:56:22 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:56:26 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:56:26 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:56:26 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:56:28 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:56:28 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:56:28 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:56:28 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:56:28 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:56:29 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:56:29 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:56:29 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:56:32 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:56:32 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:58:21 [main] Log - Run TC-2
+[INFO ] 22-03-2024 11:58:24 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 11:58:24 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 11:58:24 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:58:25 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 11:58:28 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 11:58:30 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 11:58:30 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:58:30 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:58:32 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:58:32 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:58:32 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:58:33 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:58:33 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:58:33 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:58:34 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 11:58:34 [main] Log - SendKeys: TestData1
+[INFO ] 22-03-2024 11:58:37 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:58:41 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:58:44 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:58:44 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 11:58:45 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 11:58:45 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:58:45 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:58:47 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:58:47 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:58:47 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:58:49 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:58:49 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:58:49 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:58:49 [main] Log - SendKeys: 20121.0
+[INFO ] 22-03-2024 11:58:49 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 11:58:53 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:58:56 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:59:00 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:59:00 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 11:59:01 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 11:59:01 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:59:01 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:59:03 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:59:03 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:59:03 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:59:05 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:59:06 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:59:06 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:59:06 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 11:59:07 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 11:59:10 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:59:16 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:59:16 [main] Log - Display: [[ChromeDriver: chrome on windows (f910470852442279b251aa188393a43f)] -> xpath: //tbody/tr[3]/td[2]/font[1]]
+[INFO ] 22-03-2024 11:59:16 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:59:16 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:59:18 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:59:18 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:59:18 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:59:48 [main] Log - SendKeys: 666666.0
+[INFO ] 22-03-2024 11:59:48 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 11:59:51 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 11:59:54 [main] Log - Click: submit1
+[INFO ] 22-03-2024 11:59:55 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 11:59:55 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 11:59:57 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 11:59:57 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 11:59:57 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 11:59:58 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 11:59:58 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 11:59:58 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 11:59:59 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 11:59:59 [main] Log - SendKeys: asdasdasdas
+[INFO ] 22-03-2024 12:00:02 [main] Log - Click: submit1
+[INFO ] 22-03-2024 12:00:02 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:00:24 [main] Log - Display: [[ChromeDriver: chrome on windows (f910470852442279b251aa188393a43f)] -> xpath: //html[1]/body[1]/div[2]/div[1]]
+[INFO ] 22-03-2024 12:21:05 [main] Log - Run TC-2
+[INFO ] 22-03-2024 12:21:08 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 12:21:08 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 12:21:08 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 12:21:11 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 12:21:16 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 12:21:18 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 12:21:20 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 12:21:20 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:21:22 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 12:21:24 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 12:21:24 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 12:21:54 [main] Log - SendKeys: 666666.0
+[INFO ] 22-03-2024 12:21:54 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 12:21:57 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 12:22:00 [main] Log - Click: submit1
+[INFO ] 22-03-2024 12:22:02 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 12:22:02 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:22:04 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 12:22:06 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 12:22:06 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 12:22:07 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 12:22:07 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 12:22:07 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 12:22:07 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 12:22:08 [main] Log - SendKeys: asdasdasdas
+[INFO ] 22-03-2024 12:22:11 [main] Log - Click: submit1
+[INFO ] 22-03-2024 12:22:11 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:23:28 [main] Log - Run TC-2
+[INFO ] 22-03-2024 12:23:31 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 12:23:31 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 12:23:31 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 12:23:33 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 12:23:38 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 12:23:40 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 12:23:42 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 12:23:42 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:23:44 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 12:23:46 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 12:23:46 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 12:24:16 [main] Log - SendKeys: 666666.0
+[INFO ] 22-03-2024 12:24:16 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 12:24:19 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 12:24:22 [main] Log - Click: submit1
+[INFO ] 22-03-2024 12:24:25 [main] Log - Click: reset1
+[INFO ] 22-03-2024 12:24:27 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 12:24:27 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 12:24:28 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 12:24:28 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 12:24:28 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 12:24:28 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 12:24:28 [main] Log - SendKeys: asdasdasdas
+[INFO ] 22-03-2024 12:24:32 [main] Log - Click: submit1
+[INFO ] 22-03-2024 12:24:32 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:26:11 [main] Log - Run TC-2
+[INFO ] 22-03-2024 12:26:14 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 12:26:14 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 12:26:14 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 12:26:17 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 12:26:22 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 12:26:24 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 12:26:26 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 12:26:26 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:26:28 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 12:26:30 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 12:26:30 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 12:27:00 [main] Log - SendKeys: 666666.0
+[INFO ] 22-03-2024 12:27:00 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 12:27:03 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 12:27:06 [main] Log - Click: submit1
+[INFO ] 22-03-2024 12:27:39 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 12:27:39 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:27:41 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 12:27:43 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 12:27:43 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 12:27:44 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 12:27:44 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 12:27:44 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 12:27:45 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 12:27:45 [main] Log - SendKeys: asdasdasdas
+[INFO ] 22-03-2024 12:27:49 [main] Log - Click: submit1
+[INFO ] 22-03-2024 12:27:49 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:29:57 [main] Log - Run TC-2
+[INFO ] 22-03-2024 12:30:00 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 12:30:00 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 12:30:00 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 12:30:02 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 12:30:06 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 12:30:08 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 12:30:10 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 12:30:10 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:30:12 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 12:30:14 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 12:30:14 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 12:30:44 [main] Log - SendKeys: 666666.0
+[INFO ] 22-03-2024 12:30:44 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 12:30:47 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 12:30:51 [main] Log - Click: submit1
+[INFO ] 22-03-2024 12:30:51 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:30:53 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 12:30:55 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 12:30:55 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:30:57 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 12:30:59 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 12:30:59 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 12:30:59 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 12:30:59 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 12:31:00 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 12:31:00 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 12:31:00 [main] Log - SendKeys: asdasdasdas
+[INFO ] 22-03-2024 12:31:03 [main] Log - Click: submit1
+[INFO ] 22-03-2024 12:31:03 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 12:31:03 [main] Log - Display: [[ChromeDriver: chrome on windows (d33b77c41c842c5a92a31ff8302ab91d)] -> xpath: //html[1]/body[1]/div[2]/div[1]]
+[INFO ] 22-03-2024 13:03:32 [main] Log - Run TC-2
+[INFO ] 22-03-2024 13:03:35 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 13:03:35 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 13:03:35 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 13:03:40 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 13:04:19 [main] Log - Run TC-2
+[INFO ] 22-03-2024 13:04:22 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 13:04:22 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 13:04:22 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 13:04:24 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 13:04:28 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 13:04:30 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 13:04:32 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 13:04:32 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:04:34 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 13:04:36 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 13:04:36 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 13:04:38 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 13:04:38 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 13:04:38 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 13:04:39 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 13:04:39 [main] Log - SendKeys: TestData1
+[INFO ] 22-03-2024 13:04:39 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 13:04:39 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:04:40 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:04:40 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 13:04:43 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 13:04:45 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 13:04:45 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:04:47 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 13:04:49 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 13:04:49 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 13:04:51 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 13:04:51 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 13:04:51 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 13:04:51 [main] Log - SendKeys: 20121.0
+[INFO ] 22-03-2024 13:04:51 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 13:04:51 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 13:04:52 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:04:52 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:04:52 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 13:04:56 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 13:04:58 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 13:04:58 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:05:00 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 13:05:03 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 13:05:03 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 13:05:03 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 13:05:03 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 13:05:03 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 13:05:04 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 13:05:04 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 13:05:04 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 13:05:06 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:05:06 [main] Log - Display: [[ChromeDriver: chrome on windows (12d1a4d55a2328f2df0c81b205248c51)] -> xpath: //tbody/tr[3]/td[2]/font[1]]
+[INFO ] 22-03-2024 13:05:08 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 13:05:08 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:05:10 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 13:05:12 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 13:05:12 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 13:05:42 [main] Log - SendKeys: 666666.0
+[INFO ] 22-03-2024 13:05:42 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 13:05:42 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 13:05:42 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:05:42 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:05:44 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 13:05:46 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 13:05:46 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:05:48 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 13:05:50 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 13:05:50 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 13:05:52 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 13:05:52 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 13:05:52 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 13:05:53 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 13:05:53 [main] Log - SendKeys: asdasdasdas
+[INFO ] 22-03-2024 13:05:53 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:05:53 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:05:53 [main] Log - Display: [[ChromeDriver: chrome on windows (12d1a4d55a2328f2df0c81b205248c51)] -> xpath: //html[1]/body[1]/div[2]/div[1]]
+[INFO ] 22-03-2024 13:09:27 [main] Log - Run TC-2
+[INFO ] 22-03-2024 13:09:29 [main] Log - SendKeys: 1001470_maker10
+[INFO ] 22-03-2024 13:09:29 [main] Log - SendKeys: 111111
+[INFO ] 22-03-2024 13:09:29 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 13:09:32 [main] Log - Click://button[contains(.,'Đăng nhập')]
+[INFO ] 22-03-2024 13:09:35 [main] Log - Click://input[contains(@name,'button')]
+[INFO ] 22-03-2024 13:09:38 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 13:09:40 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 13:09:40 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:09:42 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 13:09:44 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 13:09:44 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 13:09:46 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 13:09:46 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 13:09:46 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 13:09:47 [main] Log - SendKeys: 12345.0
+[INFO ] 22-03-2024 13:09:47 [main] Log - SendKeys: TestData1
+[INFO ] 22-03-2024 13:09:47 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 13:09:48 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:09:48 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:09:48 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 13:09:51 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 13:09:53 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 13:09:54 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:09:56 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 13:09:58 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 13:09:58 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 13:09:58 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 13:09:58 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 13:09:58 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 13:09:58 [main] Log - SendKeys: 20121.0
+[INFO ] 22-03-2024 13:09:59 [main] Log - SendKeys: TestData3
+[INFO ] 22-03-2024 13:09:59 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 13:09:59 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:09:59 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:09:59 [main] Log - Actual Text: Giao dịch đang chờ duyệt
+[INFO ] 22-03-2024 13:10:03 [main] Log - Click://input[contains(@class,'button_bg awesome')]
+[INFO ] 22-03-2024 13:10:05 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 13:10:05 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:10:07 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 13:10:09 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 13:10:09 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 13:10:09 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 13:10:09 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 13:10:09 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 13:10:10 [main] Log - SendKeys: 8000000000
+[INFO ] 22-03-2024 13:10:10 [main] Log - SendKeys: CHUYỂN KHOẢN TRONG HỆ THỐNG
+[INFO ] 22-03-2024 13:10:10 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 13:10:11 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:10:11 [main] Log - Display: [[ChromeDriver: chrome on windows (ac91454113c5688c1341544b0c55b656)] -> xpath: //tbody/tr[3]/td[2]/font[1]]
+[INFO ] 22-03-2024 13:10:11 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:10:14 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 13:10:16 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 13:10:16 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:10:18 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 13:10:20 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 13:10:20 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 13:10:50 [main] Log - SendKeys: 666666.0
+[INFO ] 22-03-2024 13:10:50 [main] Log - SendKeys: ABSDFSFDSAD
+[INFO ] 22-03-2024 13:10:50 [main] Log - Click: chkApp1
+[INFO ] 22-03-2024 13:10:50 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:10:50 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:10:52 [main] Log - Switch to: infoFrame
+[INFO ] 22-03-2024 13:10:54 [main] Log - Click://span[contains(.,'Chuyển Khoản Trong Hệ Thống')]
+[INFO ] 22-03-2024 13:10:54 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:10:56 [main] Log - Switch to: tranFrame
+[INFO ] 22-03-2024 13:10:58 [main] Log - Click://label[contains(.,'Cùng chủ tài khoản')]
+[INFO ] 22-03-2024 13:10:58 [main] Log - Select box: selectAccountNo
+[INFO ] 22-03-2024 13:10:59 [main] Log - Select option: 1001470-001
+[INFO ] 22-03-2024 13:10:59 [main] Log - Select box: receiveAccount
+[INFO ] 22-03-2024 13:10:59 [main] Log - Select option: 1001470-002
+[INFO ] 22-03-2024 13:11:00 [main] Log - SendKeys: 100000.0
+[INFO ] 22-03-2024 13:11:00 [main] Log - SendKeys: asdasdasdas
+[INFO ] 22-03-2024 13:11:00 [main] Log - Click: submit1
+[INFO ] 22-03-2024 13:11:00 [main] Log - Switch to default: NA
+[INFO ] 22-03-2024 13:11:01 [main] Log - Display: [[ChromeDriver: chrome on windows (ac91454113c5688c1341544b0c55b656)] -> xpath: //html[1]/body[1]/div[2]/div[1]]

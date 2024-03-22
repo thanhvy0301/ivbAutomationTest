@@ -7,9 +7,7 @@ import jdk.jfr.Description;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -23,7 +21,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.List;
 import java.util.Properties;
+import java.util.concurrent.ExecutionException;
 
 public class HybridDriven {
 
@@ -44,7 +44,7 @@ public class HybridDriven {
 
     String projectPath = System.getProperty("user.dir");
     public void startExecution(String sheetName) {
-
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         SoftAssert softAssert = new SoftAssert();
 
         FileInputStream file = null;
@@ -76,16 +76,6 @@ public class HybridDriven {
                 String verify = sheet.getRow(i + 1).getCell(k + 5).toString().trim();
                 //switch action: xử lí hành động tương ứng với case có giá trị giống với cột action trong excel
                 switch (action) {
-/*                    case "open browser":
-                        base = new Base();
-                        prop = base.init_properties();
-                        if (data1.isEmpty() || data1.equals("NA")) {
-                            driver = base.init_driver(prop.getProperty("browser"));
-                        } else {
-                            driver = base.init_driver(data1);
-                        }
-                        break;*/
-
                     case "enter url": //Nếu hành động được nhập trong excel là enter url thì driver sẽ mở url tương ứng
                         if (data1.isEmpty() || data1.equals("NA")) {
                             driver.get(PropertiesFile.getPropValue("url"));
@@ -95,7 +85,6 @@ public class HybridDriven {
                         break;
 
                     case "quit":
-                        Thread.sleep(3000);
                         driver.quit();
                         break;
                     default:
@@ -110,8 +99,8 @@ public class HybridDriven {
                             element.sendKeys(data1);
                             Log.info("SendKeys: "+data1);
                         } else if (action.equalsIgnoreCase("click")) {
+                            wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(locatorValue)));
                             element.click();
-                            Thread.sleep(2000);
                             Log.info("Click: "+ locatorValue);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
                             element.isDisplayed();
@@ -121,7 +110,7 @@ public class HybridDriven {
                             String elementText = element.getText();
                             System.out.println("text from element : " + elementText);
                         } else if (action.equalsIgnoreCase("switchTo")) {
-                            Thread.sleep(2000);
+                            wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(locatorValue));
                             driver.switchTo().frame(driver.findElement(By.id(locatorValue)));
                             Log.info("Switch to: "+locatorValue);
                         }
@@ -132,22 +121,30 @@ public class HybridDriven {
                         else if (action.equalsIgnoreCase("select")) {
                             // Khởi tạo đối tượng Select
                             Select selectDropdown = new Select(element);
-                            Log.info("Select box: "+locatorValue);
-                            selectDropdown.selectByValue(data1);
-                            Log.info("Select option: "+data1);
+                            if(!data1.equals("NA")){
+                                Log.info("Select box: "+locatorValue);
+                                selectDropdown.selectByValue(data1);
+                                Log.info("Select option: "+data1);
+                            }
+                            else {
+                                break;
+                            }
+                        }
+                        else if (action.equalsIgnoreCase("verifyText")) {
+                            wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(locatorValue)));
+                            String actualText = element.getText();
+                            softAssert.assertEquals(actualText, verify);
+                            Log.info("Actual Text: "+actualText);
                         }
                         locatorType = null;
                         break;
                     case "name":
                         element = driver.findElement(By.name(locatorValue));
-
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
                             element.sendKeys(data1);
-//                            Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("click")) {
                             element.click();
-//                            Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
                             element.isDisplayed();
                         } else if (action.equalsIgnoreCase("getText")) {
@@ -164,16 +161,19 @@ public class HybridDriven {
                             element.sendKeys(data1);
                             Log.info("SendKeys:" +data1);
                         } else if (action.equalsIgnoreCase("click")) {
-                            //cFunc.waitVisible(element);
-                            Thread.sleep(2000);
+                            wait.until(ExpectedConditions.elementToBeClickable(By.xpath(locatorValue)));
                             element.click();
-                            Thread.sleep(2000);
                             Log.info("Click:" +locatorValue);
+
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
-                            //cFunc.waitVisible(element);
-                            element.isDisplayed();
-                            Log.info("Display: "+locatorValue);
+                            try{
+                                WebElement visibleElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locatorValue)));
+                                Log.info("Display: "+visibleElement);
+                            }catch (NoSuchElementException e){
+                                Log.error(e);
+                            }
                         } else if (action.equalsIgnoreCase("getText")) {
+//                            wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(locatorValue)));
                             String elementText = element.getText();
                             System.out.println("text from element : " + elementText);
                         }
@@ -182,21 +182,64 @@ public class HybridDriven {
                             softAssert.assertEquals(actualText, verify);
                             Log.info("Actual Text: "+actualText);
                         }
+                        else if (action.equalsIgnoreCase("select")) {
+                            // Khởi tạo đối tượng Select
+                            Select selectDropdown = new Select(element);
+                            Log.info("Select box: "+locatorValue);
+                            selectDropdown.selectByValue(data1);
+                            Log.info("Select option: "+data1);
+                        }
+                        else if (action.equalsIgnoreCase("verifyNull")) {
+                            List<WebElement> hiddenRows = driver.findElements(By.xpath(locatorValue));
+                            for (WebElement row : hiddenRows) {
+                                String textRow = row.getText();
+                                System.out.println(textRow);
+                                softAssert.assertEquals(textRow,verify);
+                            }
+                        }
                         locatorType = null;
                         break;
                     case "cssSelector":
                         element = driver.findElement(By.cssSelector(locatorValue));
+                        //Select selectElement  = new Select(element);
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
                             element.sendKeys(data1);
-                            Thread.sleep(2000);
+                            Log.info("SendKeys:" +data1);
                         } else if (action.equalsIgnoreCase("click")) {
+                            wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(locatorValue)));
                             element.click();
+                            Log.info("Click:" +locatorValue);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
-                            element.isDisplayed();
+                            try{
+                                WebElement visibleElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(locatorValue)));
+                                Log.info("Display: "+visibleElement);
+                            }catch (NoSuchElementException noElement){
+                                Log.error("Không hiển thị element: "+noElement);
+                            }
                         } else if (action.equalsIgnoreCase("getText")) {
                             String elementText = element.getText();
                             System.out.println("text from element : " + elementText);
+                        }
+                        else if (action.equalsIgnoreCase("verifyText")) {
+                            String actualText = driver.findElement(By.cssSelector(locatorValue)).getText();
+                            softAssert.assertEquals(actualText, verify);
+                            Log.info("Actual Text: "+actualText);
+                        }
+                        else if (action.equalsIgnoreCase("select")) {
+                            // Khởi tạo đối tượng Select
+                            Select selectDropdown = new Select(element);
+                            Log.info("Select box: "+locatorValue);
+                            selectDropdown.selectByValue(data1);
+                            Log.info("Select option: "+data1);
+                        }
+                        else if (action.equalsIgnoreCase("verifyNull")) {
+                            List<WebElement> hiddenRows = driver.findElements(By.cssSelector(locatorValue));
+                            for (WebElement row : hiddenRows) {
+                                String textRow = row.getText();
+                                System.out.println(textRow);
+                                softAssert.assertEquals(textRow,verify);
+                            }
                         }
                         locatorType = null;
                         break;
@@ -205,10 +248,8 @@ public class HybridDriven {
                         if (action.equalsIgnoreCase("sendkeys")) {
                             element.clear();
                             element.sendKeys(data1);
-                            Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("click")) {
                             element.click();
-                            Thread.sleep(3000);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
                             element.isDisplayed();
                         } else if (action.equalsIgnoreCase("getText")) {
@@ -228,15 +269,34 @@ public class HybridDriven {
                             action.equalsIgnoreCase("switchToDefault");
                             driver.switchTo().defaultContent();
                             Log.info("Switch to default: "+locatorValue);
-                            Thread.sleep(2000);
                         }
-                        default:
+                   /* case "alert":
+                        WebDriverWait waitAlert = new WebDriverWait(driver, Duration.ofSeconds(10));
+                        try {
+                            Alert alert = waitAlert.until(ExpectedConditions.alertIsPresent());
+                            if (action.equalsIgnoreCase("alertIsPresent")) {
+                                Log.info("Display alert: " + alert.getText());
+                            } else if (action.equalsIgnoreCase("acceptAlert")) {
+                                alert.accept();
+                                Log.info("Accept alert");
+                            } else if (action.equalsIgnoreCase("cancelAlert")) {
+                                alert.dismiss();
+                                Log.info("Dismiss alert");
+                            } else if (action.equalsIgnoreCase("verifyTextAlert")) {
+                                String textAlert = alert.getText();
+                                softAssert.assertEquals(textAlert, verify);
+                                Log.info("Verify text alert: " + textAlert + "/" + verify);
+                            }
+                        } catch (TimeoutException e) {
+                            Log.error("Alert không xuất hiện sau khi chờ đợi.");
+                        }
+                        break;*/
+                    default:
                         break;
                 }
             } catch (Exception e) {
                 e.printStackTrace();
             }
-           // softAssert.assertAll();
         }
         softAssert.assertAll();// Sau khi thực thi toàn bộ testcase thì sẽ hiển thị too
 
