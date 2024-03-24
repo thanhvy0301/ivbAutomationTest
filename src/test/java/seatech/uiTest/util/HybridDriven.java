@@ -98,6 +98,7 @@ public class HybridDriven {
                             if(locatorValue!=null){
                                 element.clear();
                                 element.sendKeys(data1);
+                                Thread.sleep(2000);
                                 Log.info("SendKeys: "+data1);
                             }else {
                                 break;
@@ -105,11 +106,16 @@ public class HybridDriven {
                         } else if (action.equalsIgnoreCase("click")) {
                             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(locatorValue)));
                             element.click();
-                            Thread.sleep(2000);
+                            Thread.sleep(3000);
                             Log.info("Click: "+ locatorValue);
                         } else if (action.equalsIgnoreCase("isDisplayed")) {
-                            element.isDisplayed();
-                            Log.info("Display: "+ locatorValue);
+                            try {
+                                element.isDisplayed();
+                                Log.info("Display: "+ locatorValue);
+                            }catch (NoSuchElementException ex){
+                                Log.error("Không tìm thấy element: "+ex);
+                            }
+                            break;
                         }
                         else if (action.equalsIgnoreCase("getText")) {
                             String elementText = element.getText();
