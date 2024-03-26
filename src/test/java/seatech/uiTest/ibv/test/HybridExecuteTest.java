@@ -39,21 +39,22 @@ public class HybridExecuteTest extends Base{
         driver= init_driver(PropertiesFile.getPropValue("browser")); //driver nào sẽ được sử dụng khi được lấy trong file config.properties với key là: browser
     }
     @Test( testName = "TC-1", priority = 1)
-    @Feature("Chuyển khoản trong hệ thống")
+    @Feature("Chuyển khoản trong hệ thống VND đên VND")
     public void ckTrong_VND() throws InterruptedException {
         Log.info("Run TC-1");
         HybridDriven hybridDriven= new HybridDriven(driver);
         hybridDriven.startExecution("ck_trong(VND)");
     }
     @Test( testName = "TC-2", priority = 2)
-    @Feature("Chuyển khoản trong hệ thống")
+    @Feature("Chuyển khoản trong hệ thống VND đến USD")
     public void ckTrong_VND_USD() throws InterruptedException {
         Log.info("Run TC-2");
         HybridDriven hybridDriven= new HybridDriven(driver);
         hybridDriven.startExecution("ck_trong(VND_USD)");
     }
+
     @Test( testName = "TC-3", priority = 3)
-    @Feature("Chuyển khoản trong hệ thống")
+    @Feature("Chuyển khoản trong hệ thống USD đến USD")
     public void ckTrong_USD_USD() throws InterruptedException {
         Log.info("Run TC-3");
         HybridDriven hybridDriven= new HybridDriven(driver);
