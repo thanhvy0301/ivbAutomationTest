@@ -6,7 +6,7 @@
   </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="seatech.uiTest.ibv.test.HybridExecuteTest"/>
+      <class name ="seatech.uiTest.ibv.test.HybridExecuteTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
